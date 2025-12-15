@@ -9,9 +9,6 @@ import ContactUs from './routes/ContactUs.jsx'
 function App() {
   return (
     <>
-      <head>
-        <link href="/src/style.css" rel="stylesheet"></link>
-      </head>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
