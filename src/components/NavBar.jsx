@@ -5,7 +5,7 @@ import Btn from './Btn';
 
 export default function NavBar({ currentPage }) {
   return (
-    <div className="w-full h-[100px] bg-white align-middle sticky top-0 shadow-md flex items-center">
+    <div className="w-full h-[100px] bg-white align-middle sticky top-0 shadow-md flex items-center z-50">
       <img src={logoR} alt="Islam Path Logo" className="h-[50px] m-[25px] ml-[50px] mr-auto"/>
       <div className='grid grid-rows-1 grid-flow-col gap-10 m-[25px]'>
         <Link to="/" className={'text-[18px] ' + (currentPage === "Home" ? "text-cYellow" : " hover:text-cYellow")}>Home</Link>

@@ -3,18 +3,17 @@ import { BsFacebook, BsTelephoneFill, BsYoutube } from 'react-icons/bs';
 import { RiWhatsappFill } from 'react-icons/ri';
 import { useEffect } from "react"
 import NavBar from "../components/NavBar"
+import bbr from "../assets/bbr.png";
+import mbbr from "../assets/mbbr.png";
 
 export default function ContactUs() {
   return (
     <>
       <NavBar currentPage="Contact Us"/>
-            {/* <img src={goldPattern} alt="" className="absolute left-0 bottom-0 opacity-30 z-0 pointer-events-none size-44" style={{transform: 'translate(55%, 50%)'}}/>
-            <img src={goldPattern} alt="" className="absolute left-0 bottom-0 opacity-30 z-0 pointer-events-none size-64" style={{transform: 'translate(-50%, 30%)'}}/>
-            <img src={goldPattern} alt="" className="absolute left-0 bottom-0 opacity-15 z-0 pointer-events-none size-28" style={{transform: 'translate(0%, -100%)'}}/>
-            <img src={goldPattern} alt="" className="absolute right-0 top-0 opacity-22 z-0 pointer-events-none size-60 rotate-180" style={{transform: 'translate(-40%, -40%)'}}/>
-            <img src={goldPattern} alt="" className="absolute right-0 top-0 opacity-17 z-0 pointer-events-none size-44 rotate-180" style={{transform: 'translate(30%, 35%)'}}/> */}
+      <img src={bbr} alt="" className="hidden lg:block absolute right-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
+      <img src={mbbr} alt="" className="hidden lg:block absolute left-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
       <div className="grid grid-cols-1 gap-4 py-[82px]">
-        <h1 className="text-[32px] font-sans text-center font-bold text-cYellow">Contact Islam Path</h1>
+        <h1 className="text-4xl font-sans text-center font-bold text-cYellow">Contact Islam Path</h1>
         <p className="text-[18px] font-sans text-center text-cGery">Have a question or you want to get in touch? Here’s how</p>
       </div>
 
