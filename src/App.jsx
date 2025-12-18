@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.jsx'
 import Footer from './components/Footer.jsx'
 import BookTrialClass from './routes/BookTrialClass.jsx'
 import ContactUs from './routes/ContactUs.jsx'
+import Pricing from './routes/Pricing.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/trial-class" element={<BookTrialClass />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />
       </Router>
