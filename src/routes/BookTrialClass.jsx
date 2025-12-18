@@ -52,25 +52,25 @@ export default function BookTrialClass() {
       <NavBar currentPage=""/>
       <img src={bbr} alt="" className="hidden lg:block absolute right-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
       <img src={mbbr} alt="" className="hidden lg:block absolute left-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
-      <div className="bg-white rounded-2xl lg:w-3/4 w-4/5 my-[82px] text-center mx-auto p-16 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans z-30">
+      <div className="bg-white rounded-2xl lg:w-3/4 w-4/5 my-8 sm:my-[82px] text-center mx-auto p-10 sm:p-16 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans z-30">
         <h1 className="text-4xl text-cYellow font-bold font-sans">Book Your Free Trial Class Today!</h1>
         <p className="text-cGery text-[18px] my-4 font-sans">Take the first step towards deepening your understanding of the Quran with our free trial class.<br></br>No commitment, just pure learning!</p>
         <form className="flex flex-col gap-4 text-left" onSubmit={sendEmail} ref={ref}>
             <div className="lg:flex-row flex-col lg:gap-10 flex w-full">
                 <div className="lg:flex-1 w-full min-w-0">
                 <label className="text-left font-sans text-[18px] text-cBlack">Student Name</label><br/>
-                <input name="Name" type="text" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Name"/>
+                <input required name="Name" type="text" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Name"/>
               </div>
 
               <div className="lg:flex-row flex-col lg:gap-10 flex lg:flex-1 w-full min-w-0">
                 <div className="lg:flex-1 w-full min-w-0">
                   <label className="text-left2 font-sans text-[18px] text-cBlack">Student Age</label><br/>
-                  <input name="Age" type="number" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Age"/>
+                  <input required name="Age" type="number" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Age"/>
                 </div>
 
                 <div className="lg:flex-1 w-full min-w-0">
                   <label className="text-left font-sans text-[18px] text-cBlack">Student Gender</label><br/>
-                  <select name="Gender" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Gender">
+                  <select required name="Gender" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Gender">
                     <option>Male</option>
                     <option>Female</option>
                   </select>
@@ -81,7 +81,7 @@ export default function BookTrialClass() {
             <div className="lg:flex-row flex-col lg:gap-10 flex w-full">
               <div className="w-full">
                 <label className="text-left font-sans text-[18px] text-cBlack">Student Email</label><br/>
-                <input name="Email" type="email" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Email"/>
+                <input required name="Email" type="email" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Email"/>
               </div>
 
               <div className="w-full">
@@ -106,12 +106,12 @@ export default function BookTrialClass() {
             <div className="lg:flex-row flex-col lg:gap-10 flex w-full">
               <div className="w-full">
                 <label className="text-left font-sans text-[18px] text-cBlack">Country Of Residence</label><br/>
-                <input name="Country" type="text" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Country Of Residence"/>
+                <input required name="Country" type="text" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Country Of Residence"/>
               </div>
 
               <div className="w-full">
                 <label className="text-left font-sans text-[18px] text-cBlack">Select Timezone</label><br/>
-                <select name="Timezone" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4">
+                <select required name="Timezone" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4">
                   <option value="UTC-12:00">UTC-12:00</option>
                   <option value="UTC-11:00">UTC-11:00</option>
                   <option value="UTC-10:00">UTC-10:00</option>
@@ -158,7 +158,7 @@ export default function BookTrialClass() {
             <div className="lg:flex-row flex-col lg:gap-10 flex w-full">
               <div className="lg:flex-1 w-full min-w-0">
                 <label className="text-left font-sans text-[18px] text-cBlack">Select Course</label><br/>
-                <select name="Course" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Select Course">
+                <select required name="Course" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Select Course">
                   <option value="Qur'an Recitation for Kids">Qur'an Recitation for Kids</option>
                   <option value="Qur'an Recitation for Adults">Qur'an Recitation for Adults</option>
                   <option value="Beginner Reading (From Level Zero)">Beginner Reading (From Level Zero)</option>
@@ -182,12 +182,12 @@ export default function BookTrialClass() {
               <div className="lg:flex-row flex-col lg:gap-10 flex lg:flex-1 w-full min-w-0">
                 <div className="lg:flex-1 w-full min-w-0">
                   <label className="text-left2 font-sans text-[18px] text-cBlack">Date & Time</label><br/>
-                  <input name="DateTime" type="datetime-local" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Age"/>
+                  <input required name="DateTime" type="datetime-local" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Age"/>
                 </div>
 
                 <div className="lg:flex-1 w-full min-w-0">
                   <label className="text-left font-sans text-[18px] text-cBlack">Teacher Gender</label><br/>
-                  <select name="TeacherGender" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Gender">
+                  <select required name="TeacherGender" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Gender">
                     <option>Any</option>
                     <option>Male</option>
                     <option>Female</option>
@@ -195,7 +195,7 @@ export default function BookTrialClass() {
                 </div>
               </div>
             </div>
-          <input type="submit" value="Book Trial Class" className="bg-cBronze hover:bg-transparent border-3 border-transparent hover:border-cYellow hover:text-cBlack text-white text-[20px] rounded-[15px] px-6 py-3 mt-4 mx-auto cursor-pointer transition-all duration-300"/>
+          <input required type="submit" value="Book Trial Class" className="bg-cBronze hover:bg-transparent border-3 border-transparent hover:border-cYellow hover:text-cBlack text-white text-[20px] rounded-[15px] px-6 py-3 mt-4 mx-auto cursor-pointer transition-all duration-300"/>
         </form>
       </div>
     </>
