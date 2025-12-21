@@ -21,19 +21,19 @@ export default function SideBar({setSideBarOpen}) {
         <div className="bg-black h-0.5 opacity-5"></div>
 
         <div className="h-15 flex">
-          <Link to="/about-us" className={'text-[18px] text-cGery my-auto ml-5'}>About Us</Link>
+          <div to="/about-us" className={'text-[18px] text-cGery my-auto ml-5'}>About Us</div>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
         <div className="h-15 flex">
-          <Link to="/courses" className={'text-[18px] text-cGery my-auto ml-5'}>Courses</Link>
+          <div to="/courses" className={'text-[18px] text-cGery my-auto ml-5'}>Courses</div>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
         <div className="h-15 flex">
-          <Link to="/tutors" className={'text-[18px] text-cGery my-auto ml-5'}>Tutors</Link>
+          <div to="/tutors" className={'text-[18px] text-cGery my-auto ml-5'}>Tutors</div>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
@@ -51,7 +51,7 @@ export default function SideBar({setSideBarOpen}) {
         <div className="bg-black h-0.5 opacity-5"></div>
 
         <div className="h-15 flex">
-          <Link to="/blog" className={'text-[18px] text-cGery my-auto ml-5'}>Blog</Link>
+          <div to="/blog" className={'text-[18px] text-cGery my-auto ml-5'}>Blog</div>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>

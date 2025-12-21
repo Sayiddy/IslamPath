@@ -18,12 +18,12 @@ export default function NavBar({ currentPage }) {
         <img src={logoR} alt="Islam Path Logo" className="h-[50px] m-[25px] ml-[50px] sm-auto"/>
         <div className='xl:grid hidden grid-rows-1 grid-flow-col gap-10 m-[25px]'>
           <Link to="/" className={'text-[18px] ' + (currentPage === "Home" ? "text-cYellow" : " hover:text-cYellow")}>Home</Link>
-          <Link to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</Link>
-          <Link to="/courses" className={'text-[18px] ' + (currentPage === "Courses" ? "text-cYellow" : " hover:text-cYellow")}>Courses</Link>
-          <Link to="/tutors" className={'text-[18px] ' + (currentPage === "Tutors" ? "text-cYellow" : " hover:text-cYellow")}>Tutors</Link>
+          <div to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</div>
+          <div to="/courses" className={'text-[18px] ' + (currentPage === "Courses" ? "text-cYellow" : " hover:text-cYellow")}>Courses</div>
+          <div to="/tutors" className={'text-[18px] ' + (currentPage === "Tutors" ? "text-cYellow" : " hover:text-cYellow")}>Tutors</div>
           <Link to="/contact-us" className={'text-[18px] ' + (currentPage === "Contact Us" ? "text-cYellow" : " hover:text-cYellow")}>Contact Us</Link>
           <Link to="/pricing" className={'text-[18px] ' + (currentPage === "Pricing" ? "text-cYellow" : " hover:text-cYellow")}>Pricing</Link>
-          <Link to="/blog" className={'text-[18px] ' + (currentPage === "Blog" ? "text-cYellow" : " hover:text-cYellow")}>Blog</Link>
+          <div to="/blog" className={'text-[18px] ' + (currentPage === "Blog" ? "text-cYellow" : " hover:text-cYellow")}>Blog</div>
         </div>
         <Btn className="ml-auto mr-5 sm:mr-12 text-sm sm:text-[18px] px-2! py-2! sm:px-7! sm:py-2.5!">Book Trial Class</Btn>
       </div>
