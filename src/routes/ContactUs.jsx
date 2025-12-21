@@ -14,7 +14,7 @@ export default function ContactUs() {
       <img src={mbbr} alt="" className="hidden lg:block absolute left-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
       <div className="grid grid-cols-1 gap-4 py-[82px]">
         <h1 className="text-4xl font-sans text-center font-bold text-cYellow">Contact Islam Path</h1>
-        <p className="text-[18px] font-sans text-center text-cGery">Have a question or you want to get in touch? Here’s how</p>
+        <p className="text-[18px] px-4 font-sans text-center text-cGery">Have a question or you want to get in touch? Here’s how</p>
       </div>
 
       <div className='flex flex-col justify-center lg:gap-[82px] gap-16 pb-[82px] items-center px-4 w-full'>
