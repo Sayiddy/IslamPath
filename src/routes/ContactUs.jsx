@@ -27,7 +27,7 @@ export default function ContactUs() {
             </div>
           </div>
           
-          <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] px-6 sm:px-16 py-8 w-full lg:flex-1 min-w-0 max-w-[491px] h-[136px]">
+          <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] px-6 sm:px-16 py-8 w-full lg:flex-1 min-w-0 max-w-[491px] h-fit my-auto">
             <h1 className="flex font-semibold font-sans text-[32px] justify-center leading-none mx-auto text-center">Text us on Whatsapp</h1>
             <div className='flex gap-3 items-center justify-center'>
               <RiWhatsappFill className='fill-cYellow text-2xl'/>
