@@ -14,44 +14,44 @@ export default function SideBar({setSideBarOpen}) {
 
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <Link to="/" className={'text-[18px] text-cGery my-auto ml-5'}>Home</Link>
-        </div>
+        <Link to="/" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>Home</p>
+        </Link>
 
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <div to="/about-us" className={'text-[18px] text-cGery my-auto ml-5'}>About Us</div>
-        </div>
-        
-        <div className="bg-black h-0.5 opacity-5"></div>
-
-        <div className="h-15 flex">
-          <div to="/courses" className={'text-[18px] text-cGery my-auto ml-5'}>Courses</div>
+        <div to="/about-us" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>About Us</p>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <div to="/tutors" className={'text-[18px] text-cGery my-auto ml-5'}>Tutors</div>
+        <div to="/courses" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>Courses</p>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <Link to="/contact-us" className={'text-[18px] text-cGery my-auto ml-5'}>Contact Us</Link>
+        <div to="/tutors" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>Tutors</p>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <Link to="/pricing" className={'text-[18px] text-cGery my-auto ml-5'}>Pricing</Link>
-        </div>
+        <Link to="/contact-us" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>Contact Us</p>
+        </Link>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div className="h-15 flex">
-          <div to="/blog" className={'text-[18px] text-cGery my-auto ml-5'}>Blog</div>
+        <Link to="/pricing" className="h-15 flex">
+          <p className={'text-[18px] text-cGery my-auto ml-5'}>Pricing</p>
+        </Link>
+        
+        <div className="bg-black h-0.5 opacity-5"></div>
+
+        <div to="/blog" className="h-15 flex">
+          <div className={'text-[18px] text-cGery my-auto ml-5'}>Blog</div>
         </div>
         
         <div className="bg-black h-0.5 opacity-5"></div>

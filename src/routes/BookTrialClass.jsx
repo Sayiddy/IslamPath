@@ -52,7 +52,7 @@ export default function BookTrialClass() {
       <NavBar currentPage=""/>
       <img src={bbr} alt="" className="hidden lg:block absolute right-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
       <img src={mbbr} alt="" className="hidden lg:block absolute left-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
-      <div className="bg-white rounded-2xl lg:w-3/4 w-4/5 my-8 sm:my-[82px] text-center mx-auto p-10 sm:p-16 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans z-30">
+      <div className="bg-white rounded-2xl lg:w-3/4 sm:w-4/5 my-8 sm:my-[82px] text-center mx-4 sm:mx-auto p-10 sm:p-16 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans z-30">
         <h1 className="text-4xl text-cYellow font-bold font-sans">Book Your Free Trial Class Today!</h1>
         <p className="text-cGery text-[18px] my-4 font-sans">Take the first step towards deepening your understanding of the Quran with our free trial class.<br></br>No commitment, just pure learning!</p>
         <form className="flex flex-col gap-4 text-left" onSubmit={sendEmail} ref={ref}>
