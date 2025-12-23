@@ -159,23 +159,30 @@ export default function BookTrialClass() {
               <div className="lg:flex-1 w-full min-w-0">
                 <label className="text-left font-sans text-[18px] text-cBlack">Select Course</label><br/>
                 <select required name="Course" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Select Course">
-                  <option value="Qur'an Recitation for Kids">Qur'an Recitation for Kids</option>
-                  <option value="Qur'an Recitation for Adults">Qur'an Recitation for Adults</option>
-                  <option value="Beginner Reading (From Level Zero)">Beginner Reading (From Level Zero)</option>
-                  <option value="Ijāzah">Ijāzah</option>
-                  <option value="Qirā'āt">Qirā'āt</option>
-                  <option value="Nour Al-Bayan">Nour Al-Bayan</option>
-                  <option value="Qa'idah Nooraniyyah">Qa'idah Nooraniyyah</option>
-                  <option value="Arabic language reading and speaking">Arabic language reading and speaking</option>
-                  <option value="Quranic Arabic">Quranic Arabic</option>
-                  <option value="Arabic grammar">Arabic grammar</option>
-                  <option value="Intensive Arabic course">Intensive Arabic course</option>
-                  <option value="Aqeeda">Aqeeda</option>
-                  <option value="Tafseer">Tafseer</option>
-                  <option value="Fiqh">Fiqh</option>
-                  <option value="Hadith">Hadith</option>
-                  <option value="Du'as">Du'as</option>
-                  <option value="Seerah">Seerah</option>
+                  <option value="Quran recitation: kids">Quran recitation: kids</option>
+                  <option value="Quran recitation: adults">Quran recitation: adults</option>
+                  <option value="Quran recitation: beginners">Quran recitation: beginners</option>
+                  <option value="Quran recitation: Ijazah course">Quran recitation: Ijazah course</option>
+                  <option value="Quran recitation: Qira'at course">Quran recitation: Qira'at course</option>
+                  <option value="Quran recitation: nour al bayan course">Quran recitation: nour al bayan course</option>
+                  <option value="Quran recitation: Qa'idah nouraniyyah course">Quran recitation: Qa'idah nouraniyyah course</option>
+                  <option value="Quran memorisation: kids">Quran memorisation: kids</option>
+                  <option value="Quran memorisation: adults">Quran memorisation: adults</option>
+                  <option value="Quran memorisation: females">Quran memorisation: females</option>
+                  <option value="Quran memorisation: intensive memorisation program">Quran memorisation: intensive memorisation program</option>
+                  <option value="Quran with Tajweed: Tajweed for beginners">Quran with Tajweed: Tajweed for beginners</option>
+                  <option value="Quran with Tajweed: Tajweed for adults">Quran with Tajweed: Tajweed for adults</option>
+                  <option value="Quran with Tajweed: advanced Tajweed">Quran with Tajweed: advanced Tajweed</option>
+                  <option value="Arabic language: reading & speaking">Arabic language: reading & speaking</option>
+                  <option value="Arabic language: quranic Arabic">Arabic language: quranic Arabic</option>
+                  <option value="Arabic language: Arabic grammar">Arabic language: Arabic grammar</option>
+                  <option value="Arabic language: intensive Arabic course">Arabic language: intensive Arabic course</option>
+                  <option value="Islamic studies: Aqeedah">Islamic studies: Aqeedah</option>
+                  <option value="Islamic studies: Tafsir">Islamic studies: Tafsir</option>
+                  <option value="Islamic studies: Fiqh">Islamic studies: Fiqh</option>
+                  <option value="Islamic studies: Hadith">Islamic studies: Hadith</option>
+                  <option value="Islamic studies: Du'as">Islamic studies: Du'as</option>
+                  <option value="Islamic studies: Seerah">Islamic studies: Seerah</option>
                 </select>
               </div>
               
