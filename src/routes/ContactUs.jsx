@@ -21,28 +21,28 @@ export default function ContactUs() {
         <div className="flex flex-col items-center lg:flex-row justify-center lg:gap-[82px] gap-16 w-full">
           <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] px-6 sm:px-16 py-8 w-full lg:flex-1 min-w-0 max-w-[491px] h-[136px]">
             <h1 className="flex font-semibold font-sans text-[32px] justify-center leading-none">Call Us</h1>
-            <div className='flex gap-3 items-center justify-center'>
+            <a href='tel:+201095283906' className='flex gap-3 items-center justify-center' aria-label='Call +201095283906'>
               <BsTelephoneFill className='fill-cYellow text-2xl'/>
               <p className='font-semibold text-cGold'>+201095283906</p>
-            </div>
+            </a>
           </div>
           
           <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] px-6 sm:px-16 py-8 w-full lg:flex-1 min-w-0 max-w-[491px] h-fit my-auto">
             <h1 className="flex font-semibold font-sans text-[32px] justify-center leading-none mx-auto text-center">Text us on Whatsapp</h1>
-            <div className='flex gap-3 items-center justify-center'>
+            <a href='https://wa.me/201095283906' target='_blank' rel='noopener noreferrer' className='flex gap-3 items-center justify-center' aria-label='Chat on WhatsApp with +201095283906'>
               <RiWhatsappFill className='fill-cYellow text-2xl'/>
               <p className='font-semibold text-cGold'>+201095283906</p>
-            </div>
+            </a>
           </div>
         </div>
 
         <div className="flex flex-row justify-center gap-16 items-center w-full">
           <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] px-6 sm:px-16 py-8 w-full lg:flex-1 min-w-0 max-w-[491px] h-[136px]">
             <h1 className="flex font-semibold font-sans text-[32px] justify-center leading-none">Send us an Email</h1>
-            <div className='flex gap-3 items-center justify-center'>
+            <a href='mailto:Islampathacademy@gmail.com' className='flex gap-3 items-center justify-center' aria-label='Send email to Islampathacademy@gmail.com'>
               <AiFillMail className='fill-cYellow text-2xl'/>
               <p className='font-semibold text-cGold'>Islampathacademy@gmail.com</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

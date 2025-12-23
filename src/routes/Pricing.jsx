@@ -5,6 +5,7 @@ import { useEffect } from "react"
 import NavBar from "../components/NavBar"
 import bbr from "../assets/bbr.png";
 import mbbr from "../assets/mbbr.png";
+import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
   return (
@@ -28,9 +29,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$32</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -39,9 +40,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$48</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -50,9 +51,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$64</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -61,9 +62,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$80</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -79,9 +80,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$48</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 my-auto bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -90,9 +91,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$72</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -104,9 +105,9 @@ export default function ContactUs() {
                   </div>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -118,9 +119,9 @@ export default function ContactUs() {
                   </div>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -136,9 +137,9 @@ export default function ContactUs() {
                   <p className='flex font-bold font-sans text-[68px] text-cGold justify-center'>$64</p>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 my-auto bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -150,9 +151,9 @@ export default function ContactUs() {
                   </div>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -164,9 +165,9 @@ export default function ContactUs() {
                   </div>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
 
               <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[234px] h-fit">
@@ -178,9 +179,9 @@ export default function ContactUs() {
                   </div>
                   <h1 className="flex font-sans text-[26px] text-cGery justify-center leading-none">Per Month</h1>  
                 </div>
-                <div className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+                <Link to="/trial-class" className='flex flex-col w-[170px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
                   Book Trial Class
-                </div>
+                </Link>
               </div>
             </div>
           </div>
