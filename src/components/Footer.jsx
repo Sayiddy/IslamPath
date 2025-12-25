@@ -6,7 +6,7 @@ import goldPattern from '../assets/pngtree-circle-islamic-pattern-green-gold-lux
 
 export default function Footer() {
   return(
-    <div className="relative overflow-hidden h-fit sm:h-[550px] py-10 w-full bg-cDarkerGreen text-center text-white flex flex-row justify-center items-center text-[18px] gap-20 w-full bottom-0">
+    <div className="relative overflow-hidden h-fit sm:h-[550px] py-10 w-full bg-cBronze text-center text-white flex flex-row justify-center items-center text-[18px] gap-20 w-full bottom-0">
       {/* decorative background patterns */}
       <img src={goldPattern} alt="" className="absolute left-0 bottom-0 opacity-30 z-0 pointer-events-none size-44" style={{transform: 'translate(55%, 50%)'}}/>
       <img src={goldPattern} alt="" className="absolute left-0 bottom-0 opacity-30 z-0 pointer-events-none size-64" style={{transform: 'translate(-50%, 30%)'}}/>
@@ -29,18 +29,18 @@ export default function Footer() {
         <h2 className="font-bold text-4xl text-left ">Contact Us</h2>
         <hr className="w-full border-t-2 border-white my-4"/>
         <div className='flex flex-col gap-2'>
-          <div className='flex gap-3 items-center'>
+          <a href='mailto:Islampathacademy@gmail.com' className='flex gap-3 items-center'>
             <AiFillMail className='fill-cYellow text-2xl'/>
             <p className='font-semibold'>Islampathacademy@gmail.com</p>
-          </div>
-          <div className='flex gap-3 items-center'>
+          </a>
+          <a href='tel:+201095283906' className='flex gap-3 items-center'>
             <BsTelephoneFill className='fill-cYellow text-2xl'/>
             <p className='font-semibold'>+201095283906</p>
-          </div>
-          <div className='flex gap-3 items-center'>
+          </a>
+          <a href='https://wa.me/201095283906' className='flex gap-3 items-center'>
             <RiWhatsappFill className='fill-cYellow text-2xl'/>
             <p className='font-semibold'>+201095283906</p>
-          </div>
+          </a>
         </div>
         <h2 className="font-bold text-4xl mt-5 text-left">Social Media</h2>
         <hr className="w-full border-t-2 border-white my-4"/>
