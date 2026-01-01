@@ -1,0 +1,86 @@
+{
+  "Title": "Quran Recitation for Kids",
+  "FAQ": [
+    {
+      "Question": "Is it just reading?",
+      "Answer": "No. It builds skills, discipline, and emotional connection."
+    },
+    {
+      "Question": "Can my child start with zero Arabic?",
+      "Answer": "Yes. Designed for non-Arab & English-speaking kids."
+    },
+    {
+      "Question": "Is Tajwīd difficult for kids?",
+      "Answer": "No. Taught through practice, not theory."
+    },
+    {
+      "Question": "Will my child read confidently alone?",
+      "Answer": "Yes. Fluency training prepares them for independence."
+    },
+    {
+      "Question": "How are mistakes handled?",
+      "Answer": "With patience and guidance — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches children correct, fluent Qur'an recitation step by step — from Arabic letters to independent reading. Focuses on pronunciation, Tajwīd accuracy, confidence, and love for the Qur'an."
+    },
+    {
+      "ul" : true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Children ages 4-15",
+        "Beginners (even non-Arabic speakers)",
+        "Children who read with mistakes",
+        "Children who memorize without proper Tajwīd",
+        "Children who need structure or lose focus easily"
+      ]
+    },
+    {
+      "ol" : true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij",
+        "Short Vowels & Reading Basics",
+        "Word Building & Smooth Reading",
+        "Tajwīd for Kids (Practical & Simple)<ul class='pl-8!'><li>Ghunna - Qalqalah</li><li>Heavy & light letters</li><li>Stops & pauses</li></ul>",
+        "Short Surahs (Juz' Amma)"
+      ]
+    },
+    {
+      "ul" : true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Accurate pronunciation (Makharij)",
+        "Independent & confident reading",
+        "Natural Tajwīd application",
+        "Focus, patience, and discipline",
+        "Love and respect for the Qur'an"
+      ]
+    },
+    {
+      "ul" : true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Child-specialist teachers",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & home practice"
+      ]
+    },
+    {
+      "ul" : true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Child psychology & learning science",
+        "Phonics-based approach",
+        "Repetition & visual aids",
+        "Games & encouragement"
+      ]
+    }
+  ]
+}
+

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import NavBar from './components/NavBar.jsx'
@@ -6,6 +5,7 @@ import Footer from './components/Footer.jsx'
 import BookTrialClass from './routes/BookTrialClass.jsx'
 import ContactUs from './routes/ContactUs.jsx'
 import Pricing from './routes/Pricing.jsx'
+import Course from './routes/Course.jsx'
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
           <Route path="/trial-class" element={<BookTrialClass />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/courses" element={<Home />} />
+          <Route path="/courses/:courseName" element={<Course />} />
         </Routes>
         <Footer />
       </Router>

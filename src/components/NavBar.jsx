@@ -19,7 +19,7 @@ export default function NavBar({ currentPage }) {
         <div className='xl:grid hidden grid-rows-1 grid-flow-col gap-10 m-[25px]'>
           <Link to="/" className={'text-[18px] ' + (currentPage === "Home" ? "text-cYellow" : " hover:text-cYellow")}>Home</Link>
           <div to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</div>
-          <div to="/courses" className={'text-[18px] ' + (currentPage === "Courses" ? "text-cYellow" : " hover:text-cYellow")}>Courses</div>
+          <Link to="/courses" className={'text-[18px] ' + (currentPage === "Courses" ? "text-cYellow" : " hover:text-cYellow")}>Courses</Link>
           <div to="/tutors" className={'text-[18px] ' + (currentPage === "Tutors" ? "text-cYellow" : " hover:text-cYellow")}>Tutors</div>
           <Link to="/contact-us" className={'text-[18px] ' + (currentPage === "Contact Us" ? "text-cYellow" : " hover:text-cYellow")}>Contact Us</Link>
           <Link to="/pricing" className={'text-[18px] ' + (currentPage === "Pricing" ? "text-cYellow" : " hover:text-cYellow")}>Pricing</Link>

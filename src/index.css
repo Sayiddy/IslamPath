@@ -15,3 +15,21 @@
   --font-sans: "Inter", sans-serif;
   --container-xlg: 71.875rem;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul, ol {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
