@@ -60,7 +60,7 @@ export default function Course() {
           {course.FAQ.map((faq, index) => (
             <div key={index}>
               <p>
-                {faq.Question} <br/>
+                <div className="text-cBlack m-0 ">{faq.Question}</div>
                 {faq.Answer}
               </p>
             </div>
