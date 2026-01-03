@@ -1,0 +1,86 @@
+{
+  "Title": "Quran Recitation (Qirā'āt Course)",
+  "FAQ": [
+    {
+      "Question": "Is this course suitable for beginners?",
+      "Answer": "No. Prior mastery of Tajwīd and Qur'an recitation is required."
+    },
+    {
+      "Question": "Can I enroll without prior advanced knowledge?",
+      "Answer": "No. Foundational Tajwīd is mandatory."
+    },
+    {
+      "Question": "Will I memorize all Qirā'āt rules?",
+      "Answer": "No. Rules are applied naturally through guided practice."
+    },
+    {
+      "Question": "Can I read confidently in all Qirā'āt styles?",
+      "Answer": "Yes. Practical guidance ensures mastery."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With calm guidance, repetition, and detailed explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A specialized program for learning Qirā'āt with practical application and accurate recitation. Focuses on pronunciation variations, advanced Tajwīd, and scholarly-level fluency."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Advanced Qur'an students",
+        "Ijāzah holders or advanced readers",
+        "Students seeking scholarly understanding of Qur'anic recitation",
+        "Learners wanting to master Qirā'āt variations",
+        "Individuals preparing for teaching or advanced recitation"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Principles of Qirā'āt",
+        "Pronunciation variations and rules",
+        "Applied recitation with guidance",
+        "Controlled and precise reading practice",
+        "Fluency and accuracy exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Accurate Qirā'āt recitation",
+        "Deep understanding of variations",
+        "Advanced Tajwīd mastery",
+        "Scholarly-level fluency",
+        "Preparedness for teaching and scholarly practice"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "One-on-one or small group advanced sessions",
+        "Qualified instructors with Qirā'āt expertise",
+        "Structured advanced curriculum",
+        "Personalized correction and feedback",
+        "Focused practice and performance assessment"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Scholarly guidance with practical application",
+        "Step-by-step correction and drills",
+        "Repetition and advanced exercises",
+        "Respectful, pressure-free environment"
+      ]
+    }
+  ]
+}
+

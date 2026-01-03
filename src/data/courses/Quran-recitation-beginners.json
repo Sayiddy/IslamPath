@@ -1,0 +1,91 @@
+{
+  "Title": "Quran Recitation for Beginners",
+  "FAQ": [
+    {
+      "Question": "Do I need any prior knowledge?",
+      "Answer": "No. This course starts from zero."
+    },
+    {
+      "Question": "Can I start with zero Arabic?",
+      "Answer": "Yes. The course is designed for non-Arab & English-speaking students."
+    },
+    {
+      "Question": "Is Tajwīd difficult for beginners?",
+      "Answer": "No. It is taught through practice, not theory."
+    },
+    {
+      "Question": "Will I be able to read the Qur'an on my own?",
+      "Answer": "Yes. Step-by-step fluency training leads to independent reading."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patience and clear guidance — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program designed for absolute beginners to learn Qur'an recitation step by step — from Arabic letters to confident, independent reading. Focuses on correct pronunciation, basic Tajwīd, fluency, and building a strong foundation."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Absolute beginners of all ages",
+        "Non-Arabic speakers",
+        "New Muslims",
+        "Learners who never studied Arabic reading",
+        "Students who want a clear, guided starting point"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Sounds",
+        "Makharij Foundations",
+        "Short Vowels & Reading Basics",
+        "Word Building & Smooth Reading",
+        "Tajwīd for Beginners (Practical)<ul class='pl-8!'><li>Ghunna</li><li>Heavy & light letters</li><li>Basic stops</li></ul>",
+        "Short Surahs (Juz' Amma)",
+        "Fluency Training",
+        "Optional Memorization",
+        "Qur'an Manners & Reading Etiquette"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Correct letter pronunciation",
+        "Ability to read words and verses smoothly",
+        "Natural application of basic Tajwīd",
+        "Confidence in reading aloud",
+        "Strong foundation for continued Qur'an study"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified teachers experienced with beginners",
+        "Structured learning path",
+        "Personalized feedback and correction",
+        "Practice materials & home assignments"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Beginner-focused learning approach",
+        "Phonics-based reading",
+        "Gradual progression",
+        "Repetition & reinforcement",
+        "Supportive, pressure-free environment"
+      ]
+    }
+  ]
+}
+

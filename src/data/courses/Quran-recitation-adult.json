@@ -1,0 +1,91 @@
+{
+  "Title": "Quran Recitation for Adults",
+  "FAQ": [
+    {
+      "Question": "Is this only for beginners?",
+      "Answer": "No. It suits beginners and adults who already read but need correction."
+    },
+    {
+      "Question": "Can I start with zero Arabic?",
+      "Answer": "Yes. The course is designed for non-Arab & English-speaking adults."
+    },
+    {
+      "Question": "Do I need to memorize Tajwīd rules?",
+      "Answer": "No. Tajwīd is learned through practice, not theory."
+    },
+    {
+      "Question": "Will I be able to read confidently on my own?",
+      "Answer": "Yes. Fluency training prepares you for independent recitation."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With calm guidance and clear correction — without pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that helps adults recite the Qur'an correctly and fluently, step by step — from correcting letters to confident, independent recitation. Focuses on pronunciation, Tajwīd accuracy, consistency, and a strong connection with the Qur'an."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Adults of all ages",
+        "Beginners (even non-Arabic speakers)",
+        "Adults who read with pronunciation mistakes",
+        "Adults who memorize without proper Tajwīd",
+        "Adults who lack confidence while reading aloud",
+        "Adults who want structured, guided learning"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij correction",
+        "Short Vowels & Reading Accuracy",
+        "Word & Verse Reading",
+        "Tajwīd for Adults (Practical & Applied)<ul class='pl-8!'><li>Ghunna - Qalqalah</li><li>Heavy & light letters</li><li>Stops & pauses</li></ul>",
+        "Guided Qur'an Reading",
+        "Fluency Training",
+        "Optional Memorization",
+        "Qur'an Manners & Recitation Etiquette"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Accurate pronunciation (Makharij)",
+        "Confident, independent Qur'an reading",
+        "Natural Tajwīd application",
+        "Focus, consistency, and discipline",
+        "Strong connection with the Qur'an"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified teachers experienced with adults",
+        "Weekly progress tracking",
+        "Personalized correction and feedback",
+        "Practice materials & guided revision"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Adult learning principles",
+        "Clear, step-by-step explanation",
+        "Phonics-based reading",
+        "Repetition & focused practice",
+        "Respectful, pressure-free environment"
+      ]
+    }
+  ]
+}
+

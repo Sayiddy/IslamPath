@@ -1,0 +1,86 @@
+{
+  "Title": "Quran Recitation (Ijāzah Course)",
+  "FAQ": [
+    {
+      "Question": "Is this suitable for beginners?",
+      "Answer": "No. It is intended for students with solid Qur’an reading skills."
+    },
+    {
+      "Question": "Can I enroll without prior recitation experience?",
+      "Answer": "No. Basic mastery of Qur’an recitation is required."
+    },
+    {
+      "Question": "Do I need to memorize Tajwīd rules?",
+      "Answer": "No. Tajwīd is applied naturally through guided practice."
+    },
+    {
+      "Question": "Will I be ready to teach others after this course?",
+      "Answer": "Yes. The course prepares you for both recitation and instruction."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With calm guidance and repeated correction — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "An advanced program designed for students seeking Ijāzah in Qur’an recitation. Focuses on perfect pronunciation, precise Tajwīd, fluency, and achieving certification from a qualified teacher."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Advanced Qur’an students",
+        "Strong Tajwīd readers",
+        "Students seeking Ijāzah certification",
+        "Those wanting precise, advanced correction",
+        "Learners ready for consistent practice and assessment"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Full Qur’an recitation with teacher guidance",
+        "Makharij and Tajwīd precision",
+        "Advanced verse correction",
+        "Gradual independence toward full recitation",
+        "Fluency and accuracy drills"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Authorized Ijāzah certificate",
+        "Mastery of Qur’an recitation",
+        "Advanced pronunciation and Tajwīd",
+        "Confidence in teaching or reciting to others",
+        "Consistent and disciplined Qur’an practice"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "One-on-one sessions with certified instructors",
+        "Structured, advanced curriculum",
+        "Personalized correction and feedback",
+        "Continuous progress assessment",
+        "Guidance toward official Ijāzah certification"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Scholarly guidance with practical application",
+        "Step-by-step correction",
+        "Repetition and focused practice",
+        "Respectful, pressure-free environment"
+      ]
+    }
+  ]
+}
+
