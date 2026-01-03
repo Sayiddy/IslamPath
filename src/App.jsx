@@ -6,6 +6,7 @@ import BookTrialClass from './routes/BookTrialClass.jsx'
 import ContactUs from './routes/ContactUs.jsx'
 import Pricing from './routes/Pricing.jsx'
 import Course from './routes/Course.jsx'
+import Courses from './routes/Courses.jsx'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/trial-class" element={<BookTrialClass />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/courses" element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:courseName" element={<Course />} />
         </Routes>
         <Footer />
