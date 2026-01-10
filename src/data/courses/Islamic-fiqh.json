@@ -1,0 +1,90 @@
+{
+  "Title": "Islamic Studies: Fiqh",
+  "Type": "Islamic Studies",
+  "Subtitle": "Practical Islamic Rulings",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners and intermediate learners."
+    },
+    {
+      "Question": "Can I start without prior Fiqh knowledge?",
+      "Answer": "Yes. The course explains rulings step by step."
+    },
+    {
+      "Question": "Is Fiqh difficult to apply?",
+      "Answer": "No. It is taught clearly with examples, practice, and guided application."
+    },
+    {
+      "Question": "Will I be able to follow Fiqh rules confidently?",
+      "Answer": "Yes. Step-by-step guidance ensures correct practice and understanding."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated demonstration, and clear explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Islamic Fiqh (jurisprudence) to help students understand practical rulings and apply them in daily life. Focuses on acts of worship, halal & haram, purification, prayer, and Islamic ethics."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners or those with basic Islamic knowledge",
+        "Learners who want to understand practical Islamic rulings",
+        "Students aiming to improve worship accuracy",
+        "Anyone seeking structured guidance in daily Islamic practice"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Fiqh and its importance",
+        "Purification (Wudu, Ghusl, Tayammum)",
+        "Prayer (Salah) rules and practice",
+        "Zakat, Fasting, Hajj & other pillars",
+        "Halal & Haram in daily life",
+        "Transactions, ethics, and social rulings",
+        "Practical exercises and case studies",
+        "Reflection and application in daily life"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Clear understanding of Islamic rulings",
+        "Ability to perform worship correctly",
+        "Knowledge of halal, haram, and daily ethics",
+        "Confidence in applying Islamic teachings",
+        "Practical and disciplined approach to faith"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & practical exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Step-by-step explanation of rulings",
+        "Practical demonstrations & exercises",
+        "Case studies & interactive discussion",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

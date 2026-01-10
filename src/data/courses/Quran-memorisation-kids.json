@@ -1,0 +1,90 @@
+{
+  "Title": "Qur’an Memorization for Kids",
+  "Type": "Quran Memorisation",
+  "Subtitle": "Step-by-Step Qur’an Memorization with Correct Tajwīd for Children",
+  "FAQ": [
+    {
+      "Question": "Is it only memorization?",
+      "Answer": "No. The course builds pronunciation, Tajwīd, fluency, discipline, and emotional connection."
+    },
+    {
+      "Question": "Can my child start with zero Arabic?",
+      "Answer": "Yes. Designed for non-Arab & English-speaking kids."
+    },
+    {
+      "Question": "Is Tajwīd difficult while memorizing?",
+      "Answer": "No. Tajwīd is applied naturally through repetition and practice."
+    },
+    {
+      "Question": "Will my child be able to memorize independently?",
+      "Answer": "Yes. Fluency and memory exercises prepare them for independent memorization."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patience, guidance, and structured revision — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that helps children memorize the Qur’an step by step while ensuring correct pronunciation and Tajwīd. Focuses on memory techniques, fluency, confidence, and love for Allah’s Book."
+    },
+    {
+      "ul": true,
+      "Heading": "Who Is It For?",
+      "Content": [
+        "Children ages 4–15",
+        "Beginners (even non-Arabic speakers)",
+        "Children who can read but need to memorize",
+        "Children who memorize incorrectly without Tajwīd",
+        "Children who need structure or lose focus easily"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij (for correct pronunciation)",
+        "Short Vowels & Reading Basics",
+        "Word & Verse Building for memorization",
+        "Tajwīd for Kids (Practical & Simple)<ul class='pl-8!'><li>Ghunna – Qalqalah</li><li>Heavy & light letters</li><li>Stops & pauses</li></ul>",
+        "Short Surahs (Juz’ Amma)",
+        "Fluency & Memory Training",
+        "Optional Daily Revision Techniques",
+        "Islamic Manners & Qur’an Etiquette"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will Your Child Achieve?",
+      "Content": [
+        "Correct pronunciation (Makharij)",
+        "Smooth, confident memorization",
+        "Natural Tajwīd application",
+        "Focus, patience, and discipline",
+        "Love and respect for the Qur’an"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Child-specialist teachers",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & home practice for memorization"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Child psychology & memory techniques",
+        "Phonics-based reading & repetition",
+        "Visual aids & interactive exercises",
+        "Games, encouragement, and motivation"
+      ]
+    }
+  ]
+}

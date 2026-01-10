@@ -1,0 +1,92 @@
+{
+  "Title": "Qur’an Recitation (Nour Al-Bayan Course)",
+  "Type": "Quran Recitation",
+  "Subtitle": "Foundational Arabic Reading & Confident Qur’an Recitation",
+  "FAQ": [
+    {
+      "Question": "Is this course only for children?",
+      "Answer": "No. It is suitable for both children and adults seeking a strong foundation."
+    },
+    {
+      "Question": "Can adults join this course?",
+      "Answer": "Yes. It is designed for anyone needing a solid Arabic reading base."
+    },
+    {
+      "Question": "Is Tajwīd difficult in this course?",
+      "Answer": "No. Tajwīd is learned naturally through repetition and practice."
+    },
+    {
+      "Question": "Will I be ready to read the Qur’an confidently?",
+      "Answer": "Yes. Step-by-step training builds a solid foundation."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repetition, and clear correction."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A classical method designed to teach accurate Arabic reading and strong Qur’an pronunciation. Focuses on phonics, correct letter articulation, fluency, and reading confidence."
+    },
+    {
+      "ul": true,
+      "Heading": "Who Is It For?",
+      "Content": [
+        "Beginners of all ages",
+        "Children learning Arabic letters",
+        "Learners who want to improve reading accuracy",
+        "Students preparing for Qur’an recitation",
+        "Those needing structured and gradual learning"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic phonics & letter sounds",
+        "Makharij (letter articulation)",
+        "Gradual word reading",
+        "Smooth reading flow exercises",
+        "Tajwīd basics (practical application)<ul class='pl-8!'><li>Ghunna</li><li>Heavy & light letters</li><li>Basic stops</li></ul>",
+        "Short Surahs practice",
+        "Fluency training",
+        "Optional memorization",
+        "Qur’an etiquette & recitation manners"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve?",
+      "Content": [
+        "Strong Arabic reading skills",
+        "Accurate pronunciation (Makharij)",
+        "Smooth transition to Qur’an reading",
+        "Increased fluency and confidence",
+        "Preparedness for advanced Qur’an recitation"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group sessions",
+        "Qualified instructors experienced with beginners and advanced learners",
+        "Structured curriculum with gradual progression",
+        "Personalized correction and feedback",
+        "Worksheets & practice exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Phonics-based and practical approach",
+        "Gradual, step-by-step progression",
+        "Repetition & focused exercises",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}
+

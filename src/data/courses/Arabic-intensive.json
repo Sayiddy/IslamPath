@@ -1,0 +1,91 @@
+{
+  "Title": "Arabic Language: Intensive Arabic Course",
+  "Type": "Arabic Language",
+  "Subtitle": "Rapid Learning in Reading, Writing, Speaking, and Comprehension",
+  "FAQ": [
+    {
+      "Question": "Is this course suitable for beginners?",
+      "Answer": "Yes. It accommodates beginners but accelerates learning for motivated students."
+    },
+    {
+      "Question": "Can I start if I only know basic Arabic letters?",
+      "Answer": "Yes. The course builds reading, writing, and speaking skills step by step."
+    },
+    {
+      "Question": "Is it too fast-paced for beginners?",
+      "Answer": "No. The course is structured to gradually increase speed while reinforcing fundamentals."
+    },
+    {
+      "Question": "Will I be able to speak and understand Arabic quickly?",
+      "Answer": "Yes. Intensive practice ensures fluency and comprehension."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured intensive program designed to teach Arabic reading, writing, speaking, and comprehension rapidly. Focuses on grammar, vocabulary, conversational skills, and fluency with a fast-paced, structured approach."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Children, teenagers, and adults",
+        "Beginners or intermediate learners",
+        "Students who want to learn Arabic quickly",
+        "Learners who need structured, intensive guidance",
+        "Anyone preparing for practical communication or advanced studies"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij (correct pronunciation)",
+        "Short Vowels & Reading Accuracy",
+        "Word & Sentence Formation",
+        "Grammar & Vocabulary Building",
+        "Conversational Practice & Dialogues",
+        "Reading Comprehension Exercises",
+        "Writing Practice & Composition",
+        "Fluency Drills (Reading, Writing, Speaking)",
+        "Arabic Etiquette & Cultural Notes"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Correct pronunciation and Makharij",
+        "Rapid improvement in reading, writing, and speaking",
+        "Strong vocabulary and grammar understanding",
+        "Confident conversation and comprehension skills",
+        "Preparedness for advanced Arabic studies or practical communication"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or small group intensive classes",
+        "Qualified instructors experienced with accelerated learning",
+        "Weekly progress tracking",
+        "Personalized feedback",
+        "Worksheets & structured home practice"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Phonics-based and practical approach",
+        "Step-by-step guided instruction",
+        "Repetition & interactive exercises",
+        "Focused, supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

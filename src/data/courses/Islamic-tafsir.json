@@ -1,0 +1,89 @@
+{
+  "Title": "Islamic Studies: Tafsir",
+  "Type": "Islamic Studies",
+  "Subtitle": "Understanding Qur’anic Meanings",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners and intermediate learners."
+    },
+    {
+      "Question": "Can I start without prior Tafsir knowledge?",
+      "Answer": "Yes. The course builds understanding step by step."
+    },
+    {
+      "Question": "Is Tafsir difficult to understand?",
+      "Answer": "No. It is taught with clear examples, simplified explanations, and practical lessons."
+    },
+    {
+      "Question": "Will I be able to understand the Qur’an confidently?",
+      "Answer": "Yes. Step-by-step guidance ensures comprehension and reflection."
+    },
+    {
+      "Question": "How are misunderstandings clarified?",
+      "Answer": "With patient guidance, examples, and clear explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Tafsir (Qur’anic explanation) to help students understand the meanings, context, and lessons of the Qur’an. Focuses on clear interpretation, application in daily life, and connection with Allah’s words."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners and those with basic Qur’an reading",
+        "Learners who want to understand Qur’anic meanings",
+        "Students aiming to apply Qur’anic teachings in life",
+        "Anyone seeking structured Tafsir guidance"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Tafsir and its importance",
+        "Context of revelation (Asbab al-Nuzul)",
+        "Verse-by-verse explanation of selected Surahs",
+        "Understanding vocabulary and grammar in the Qur’an",
+        "Lessons and moral guidance from Qur’anic stories",
+        "Practical application of Qur’anic teachings",
+        "Reflection exercises to strengthen understanding"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Clear understanding of Qur’anic meanings",
+        "Ability to interpret verses contextually",
+        "Enhanced vocabulary and comprehension of Qur’an",
+        "Practical application of Qur’anic guidance",
+        "Strengthened connection with Allah’s words"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & reflection exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Structured, step-by-step approach",
+        "Clear examples from Qur’an and Hadith",
+        "Interactive discussion & reflection",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

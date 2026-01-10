@@ -1,0 +1,90 @@
+{
+  "Title": "Islamic Studies: Du’as",
+  "Type": "Islamic Studies",
+  "Subtitle": "Memorization and Understanding of Supplications",
+  "FAQ": [
+    {
+      "Question": "Is this course only for memorization?",
+      "Answer": "No. It also teaches understanding, etiquette, and proper usage."
+    },
+    {
+      "Question": "Can I start if I don’t know any Du’as?",
+      "Answer": "Yes. The course introduces Du’as step by step."
+    },
+    {
+      "Question": "Is memorization difficult?",
+      "Answer": "No. Du’as are taught gradually with repetition and practical examples."
+    },
+    {
+      "Question": "Will I be able to use Du’as confidently in daily life?",
+      "Answer": "Yes. Step-by-step guidance ensures memorization, understanding, and practical application."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches essential Islamic Du’as, helping students memorize, understand, and use supplications in daily life. Focuses on correct pronunciation, meaning, context, and practical application."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners or those with little knowledge of Du’as",
+        "Learners who want to memorize daily supplications",
+        "Students aiming to understand meanings and context",
+        "Anyone seeking structured guidance in making Du’as confidently"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Du’as and their importance",
+        "Daily Du’as (morning, evening, meals, travel, etc.)",
+        "Du’as from Qur’an & Sunnah",
+        "Correct pronunciation and articulation",
+        "Understanding meanings and context",
+        "Etiquette and proper application",
+        "Memorization and repetition exercises",
+        "Reflection and practical use in daily life"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Ability to recite essential Du’as correctly",
+        "Understanding of meanings and context",
+        "Confidence in using Du’as in daily life",
+        "Strengthened connection with Allah",
+        "Practice of proper etiquette and supplication habits"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & practice exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Gradual memorization and repetition",
+        "Understanding meaning and context",
+        "Interactive exercises & guided practice",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Title": "Arabic Language: Reading and Speaking",
+  "Type": "Arabic Language",
+  "Subtitle": "Learn to Read and Speak Arabic Confidently",
+  "FAQ": [
+    {
+      "Question": "Is this course only for children?",
+      "Answer": "No. It is designed for beginners of all ages."
+    },
+    {
+      "Question": "Can I start with zero Arabic knowledge?",
+      "Answer": "Yes. The course is designed for absolute beginners."
+    },
+    {
+      "Question": "Is pronunciation difficult for beginners?",
+      "Answer": "No. Correct articulation is reinforced through repetition and guided practice."
+    },
+    {
+      "Question": "Will I be able to speak Arabic confidently?",
+      "Answer": "Yes. Step-by-step training prepares students for independent speaking."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Arabic reading and speaking from the basics to confident communication. Focuses on letter recognition, pronunciation, vocabulary, sentence formation, and conversational skills."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Beginners of all ages",
+        "Non-Arabic speakers",
+        "Students who can read a little but want fluency",
+        "Learners who struggle with pronunciation or sentence formation",
+        "Anyone seeking structured guidance to speak Arabic confidently"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Sounds (Makharij for correct pronunciation)",
+        "Short Vowels & Basic Reading",
+        "Word Formation & Vocabulary Building",
+        "Sentence Reading & Speaking Practice",
+        "Conversational Dialogues & Everyday Expressions",
+        "Fluency Training (Reading & Speaking)",
+        "Optional Writing Exercises",
+        "Arabic Etiquette & Cultural Notes"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Correct pronunciation of Arabic letters and words",
+        "Smooth reading and understanding of texts",
+        "Ability to form and speak simple sentences",
+        "Increased confidence in speaking Arabic",
+        "Foundational vocabulary for daily communication"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified instructors experienced with beginners",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & home practice for reading and speaking"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Phonics-based and step-by-step approach",
+        "Repetition & interactive speaking exercises",
+        "Visual aids & conversational drills",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

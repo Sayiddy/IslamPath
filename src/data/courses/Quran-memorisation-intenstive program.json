@@ -1,0 +1,90 @@
+{
+  "Title": "Qur’an Memorization (Intensive Memorization Program)",
+  "Type": "Quran Memorisation",
+  "Subtitle": "Rapid & Structured Qur’an Memorization with Correct Tajwīd",
+  "FAQ": [
+    {
+      "Question": "Is this only for advanced learners?",
+      "Answer": "No. It is suitable for learners with basic reading skills ready for focused memorization."
+    },
+    {
+      "Question": "Can I start if I’m not fluent yet?",
+      "Answer": "Yes. The course combines recitation practice with memorization techniques."
+    },
+    {
+      "Question": "Is Tajwīd difficult during intensive memorization?",
+      "Answer": "No. Tajwīd is reinforced through guided repetition and practice."
+    },
+    {
+      "Question": "Will I be able to memorize efficiently on my own?",
+      "Answer": "Yes. Intensive training prepares students for independent memorization."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, structured review, and repeated correction — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured and intensive program designed for rapid Qur’an memorization with correct pronunciation and Tajwīd. Focuses on memory techniques, fluency, confidence, and consistent daily practice."
+    },
+    {
+      "ul": true,
+      "Heading": "Who Is It For?",
+      "Content": [
+        "Children, teenagers, and adults",
+        "Beginners with reading ability",
+        "Learners who want to memorize quickly",
+        "Those who memorize slowly without structure",
+        "Students seeking intensive, guided memorization"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij (for correct pronunciation)",
+        "Short Vowels & Reading Accuracy",
+        "Word & Verse Building for memorization",
+        "Tajwīd (Practical & Applied)<ul class='pl-8!'><li>Ghunna – Qalqalah</li><li>Heavy & light letters</li><li>Stops & pauses</li></ul>",
+        "Short & Long Surahs Memorization",
+        "Daily Fluency & Memory Drills",
+        "Review & Revision Techniques",
+        "Qur’an Manners & Recitation Etiquette"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve?",
+      "Content": [
+        "Correct pronunciation (Makharij)",
+        "Rapid, confident memorization",
+        "Smooth application of Tajwīd",
+        "Focus, discipline, and consistency",
+        "Strong connection with the Qur’an"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or small group intensive classes",
+        "Qualified instructors experienced with rapid memorization",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Structured review & home practice"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Intensive memory techniques & phonics-based recitation",
+        "Daily structured repetition",
+        "Visual aids & interactive exercises",
+        "Encouragement, motivation, and guidance"
+      ]
+    }
+  ]
+}

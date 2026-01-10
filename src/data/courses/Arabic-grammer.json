@@ -1,0 +1,91 @@
+{
+  "Title": "Arabic Language: Arabic Grammar",
+  "Type": "Arabic Language",
+  "Subtitle": "Master Arabic Grammar for Reading, Writing, and Speaking",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners with basic Arabic reading skills."
+    },
+    {
+      "Question": "Can I start if I only read letters?",
+      "Answer": "Yes. The course builds grammar skills step by step."
+    },
+    {
+      "Question": "Is grammar difficult for beginners?",
+      "Answer": "No. Concepts are taught practically with examples and repetition."
+    },
+    {
+      "Question": "Will I be able to write and speak Arabic correctly?",
+      "Answer": "Yes. Step-by-step guidance ensures confident and accurate usage."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Arabic grammar to help students read, understand, and construct sentences correctly. Focuses on syntax, sentence structure, verb conjugation, and practical application in reading and writing."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners with basic reading ability",
+        "Learners who want to understand sentence structure",
+        "Students aiming to improve writing and speaking skills",
+        "Anyone preparing for advanced Arabic studies or Qur’anic comprehension"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij (for proper pronunciation)",
+        "Short Vowels & Reading Accuracy",
+        "Nouns, Verbs & Sentence Components",
+        "Syntax Rules & Grammar Foundations",
+        "Sentence Construction & Practice",
+        "Applied Reading & Writing Exercises",
+        "Contextual Grammar from Qur’an & Texts",
+        "Fluency in Writing and Speaking",
+        "Arabic Etiquette & Language Notes"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Correct pronunciation and Makharij",
+        "Ability to construct and understand sentences",
+        "Improved reading, writing, and speaking skills",
+        "Clear understanding of Arabic grammar rules",
+        "Strong foundation for Qur’anic and classical Arabic"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified instructors experienced with Arabic grammar",
+        "Weekly progress tracking",
+        "Personalized feedback",
+        "Worksheets & home practice for grammar and sentence construction"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Practical and applied approach to grammar",
+        "Step-by-step explanation and exercises",
+        "Repetition & interactive reading and writing drills",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

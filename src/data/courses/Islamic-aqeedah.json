@@ -1,0 +1,90 @@
+{
+  "Title": "Islamic Studies: Aqeedah",
+  "Type": "Islamic Studies",
+  "Subtitle": "Foundations of Islamic Beliefs",
+  "FAQ": [
+    {
+      "Question": "Is this course only theoretical?",
+      "Answer": "No. It combines understanding with real-life application and reflection."
+    },
+    {
+      "Question": "Can I start with zero knowledge of Aqeedah?",
+      "Answer": "Yes. The course is designed for absolute beginners."
+    },
+    {
+      "Question": "Is Aqeedah difficult to understand?",
+      "Answer": "No. It is taught clearly with examples, reflection, and guidance."
+    },
+    {
+      "Question": "Will I be able to understand and apply Aqeedah confidently?",
+      "Answer": "Yes. Step-by-step guidance ensures comprehension and practical application."
+    },
+    {
+      "Question": "How are misconceptions corrected?",
+      "Answer": "With clear guidance, examples, and patient explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches the fundamentals of Islamic Aqeedah (beliefs). Focuses on understanding Tawheed, Prophethood, and core Islamic beliefs in a clear and practical way."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners in Islamic studies",
+        "Learners who want to strengthen their faith",
+        "Students preparing for Islamic education or personal knowledge",
+        "Anyone seeking a structured understanding of Islamic beliefs"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Aqeedah",
+        "Tawheed: Oneness of Allah",
+        "Prophethood and Risalah",
+        "Angels, Books, and the Day of Judgment",
+        "Understanding the unseen (Al-Ghayb)",
+        "Common Misconceptions & Clarifications",
+        "Practical Application of Belief in Daily Life",
+        "Reflection and Faith Strengthening Exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Strong foundation in Islamic beliefs",
+        "Clear understanding of Tawheed and Prophethood",
+        "Ability to explain basic Aqeedah concepts",
+        "Strengthened faith and confidence in understanding Islam",
+        "Practical application of beliefs in daily life"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & reflection exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Structured, step-by-step approach to beliefs",
+        "Examples from Qur’an and Sunnah",
+        "Interactive discussions & reflection",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

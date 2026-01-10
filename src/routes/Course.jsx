@@ -28,6 +28,8 @@ export default function Course() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [course.Sections]);
 
+  useEffect(() => {window.scrollTo(0, 0);},[])
+
   if (!course) {
     return (
       <>

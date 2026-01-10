@@ -1,0 +1,91 @@
+{
+  "Title": "Qur’an Recitation (Qā’idah Nouraniyyah Course)",
+  "Type": "Quran Recitation",
+  "Subtitle": "Foundational Arabic Reading & Correct Qur’an Pronunciation",
+  "FAQ": [
+    {
+      "Question": "Why start with Qā’idah Nouraniyyah?",
+      "Answer": "To prevent early pronunciation mistakes and ensure proper Makharij from the beginning."
+    },
+    {
+      "Question": "Can adults take this course?",
+      "Answer": "Yes. Suitable for anyone needing a strong reading foundation."
+    },
+    {
+      "Question": "Is Tajwīd difficult in this course?",
+      "Answer": "No. Tajwīd is learned naturally through practice and repetition."
+    },
+    {
+      "Question": "Will I be ready to read the Qur’an independently?",
+      "Answer": "Yes. This course ensures a solid base for future recitation."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repetition, and clear explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A foundational, phonics-based course using Al-Qā’idah An-Nouraniyyah to teach correct Arabic pronunciation. Focuses on letter sounds, articulation, smooth reading, and building a solid base for Qur’an recitation."
+    },
+    {
+      "ul": true,
+      "Heading": "Who Is It For?",
+      "Content": [
+        "Absolute beginners",
+        "Children learning Arabic letters",
+        "Learners with weak pronunciation",
+        "Students preparing for advanced Qur’an recitation",
+        "Beginners who need structured, step-by-step guidance"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic letters & Makharij (pronunciation)",
+        "Syllable reading & blending",
+        "Word formation & gradual reading",
+        "Smooth reading flow exercises",
+        "Tajwīd basics (practical)<ul class='pl-8!'><li>Ghunna</li><li>Heavy & light letters</li><li>Basic stops</li></ul>",
+        "Short Surahs (Juz’ Amma)",
+        "Fluency training",
+        "Optional memorization",
+        "Qur’an etiquette & recitation manners"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve?",
+      "Content": [
+        "Perfect letter pronunciation",
+        "Strong Makharij foundation",
+        "Smooth transition to Qur’an recitation",
+        "Confident and accurate reading",
+        "Preparedness for advanced Qur’an courses"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group sessions",
+        "Qualified instructors for beginners and children",
+        "Structured curriculum with step-by-step progression",
+        "Personalized correction and feedback",
+        "Worksheets & guided practice"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Phonics-based, step-by-step approach",
+        "Repetition & gradual progression",
+        "Focused exercises for smooth reading",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

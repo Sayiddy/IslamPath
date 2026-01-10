@@ -1,13 +1,31 @@
-import { AiFillInstagram, AiFillMail, AiFillTwitterCircle } from 'react-icons/ai';
-import { BsFacebook, BsTelephoneFill, BsYoutube } from 'react-icons/bs';
-import { RiWhatsappFill } from 'react-icons/ri';
-import { useEffect } from "react"
 import NavBar from "../components/NavBar"
-import bbr from "../assets/bbr.png";
-import mbbr from "../assets/mbbr.png";
-import { Link } from 'react-router-dom';
+import CourseCard from '../components/CourseCard.jsx';
+import { useState } from "react";
+import courses, { courseImages } from "../data/index.js";
 
 export default function Courses() {
+  const [filter, setFilter] = useState('All');
+  let courseTypes = [];
+  let filteredCourses = [];
+
+  Object.entries(courses).forEach(([key, course]) => {
+    if (!courseTypes.includes(course.Type)) {
+      courseTypes.push(course.Type);
+    }
+  });
+
+  if (filter === 'All') {
+    Object.entries(courses).forEach(([key, course]) => {
+      filteredCourses.push([key, course]);
+    });
+  }else {
+    Object.entries(courses).forEach(([key, course]) => {
+      if (course.Type === filter) {
+        filteredCourses.push([key, course]);
+      }
+    });
+  }
+
   return (
     <>
       <NavBar currentPage="Courses"/>
@@ -20,108 +38,20 @@ export default function Courses() {
       </div>
 
       <div className='flex mx-auto justify-center mb-10 gap-4'>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
+        <button className={'flex h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === 'All' ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter('All')}>
           All
-        </Link>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-          Quran Recitation
-        </Link>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-          Quran Memorization
-        </Link>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-          Quran With Tajweed
-        </Link>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-          Arabic Language
-        </Link>
-        <Link to="" className='flex flex-col h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-          Islamic Studies
-        </Link>
+        </button>
+        {courseTypes.map((type) => (
+          <button key={type} className={'flex h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === type ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter(type)}>
+            {type}
+          </button>
+        ))}
       </div>
 
-      <div className='flex flex-col justify-center mb-[82px] gap-15'>
-        <div className="flex flex-col gap-5">
-          <div className='flex flex-col justify-center gap-4'>
-            <div className="grid grid-rows-3 sm:grid-rows-2 lg:grid-rows-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-fit justify-center items-center gap-10 mx-auto">
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className='flex flex-col justify-center gap-4'>
-            <div className="grid grid-rows-3 sm:grid-rows-2 lg:grid-rows-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-fit justify-center items-center gap-10 mx-auto">
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-
-              <div className="flex flex-col gap-4 bg-white rounded-2xl shadow-[4px_4px_4px_2px_rgba(0,0,0,0.25)] p-8 w-[325px] h-fit">
-                <div className='bg-cBlack size-[325px] m-[-32px] rounded-t-2xl'>
-                </div>
-                <h1 className="flex font-bold font-sans text-[18px] text-cBlack justify-center leading-none pt-[50px]">Quran Recitation for kids</h1>
-                <div className='flex flex-col gap-[-16px]'>
-                  <h1 className="flex font-sans text-[18px] text-cGery justify-center leading-none text-center">Course for kids to perfect their Quran recitation.</h1>  
-                </div>
-                <Link to="/trial-class" className='flex flex-col w-[217px] h-[46px] rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300'>
-                  Course Details
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className='grid grid-rows-3 sm:grid-rows-2 lg:grid-rows-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-fit h-fit justify-center items-center gap-10 mx-auto mb-[82px]'>
+        {filteredCourses.map((course, index) => (
+          <CourseCard key={index} title={course[1].Title} subtitle={course[1].Subtitle} URL={course[0]} image={courseImages[course[0]]}/>
+        ))}
       </div>
     </>
   )

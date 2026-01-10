@@ -1,0 +1,90 @@
+{
+  "Title": "Arabic Language: Qur’anic Arabic",
+  "Type": "Arabic Language",
+  "Subtitle": "Understand Qur’anic Texts and Read with Comprehension",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners who know basic Arabic reading."
+    },
+    {
+      "Question": "Can I start if I only read Arabic letters?",
+      "Answer": "Yes. The course builds Qur’anic comprehension step by step."
+    },
+    {
+      "Question": "Is grammar difficult in this course?",
+      "Answer": "No. Grammar is applied practically through Qur’anic verses and repetition."
+    },
+    {
+      "Question": "Will I be able to understand Qur’anic text independently?",
+      "Answer": "Yes. Step-by-step guidance ensures comprehension and confident reading."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation — never pressure."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Qur’anic Arabic to help students understand the Qur’an, read with comprehension, and apply language rules. Focuses on vocabulary, grammar, sentence structure, and Qur’anic expressions."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners with basic reading skills",
+        "Learners who want to understand Qur’an meaning",
+        "Students aiming to improve grammar and vocabulary in Qur’anic context",
+        "Anyone preparing for advanced Qur’anic studies"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Arabic Letters & Makharij (correct pronunciation for comprehension)",
+        "Short Vowels & Reading Accuracy",
+        "Qur’anic Vocabulary & Word Meanings",
+        "Sentence Formation & Grammar in Qur’an",
+        "Applied Reading & Comprehension Exercises",
+        "Surah Analysis & Contextual Understanding",
+        "Fluency in Reading & Understanding Qur’an",
+        "Qur’anic Etiquette & Language Notes"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Correct pronunciation and Makharij",
+        "Understanding of Qur’anic words and sentences",
+        "Ability to read and comprehend verses smoothly",
+        "Improved vocabulary and grammar knowledge",
+        "Stronger connection with the Qur’an"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified instructors experienced with Qur’anic Arabic",
+        "Weekly progress tracking",
+        "Personalized feedback",
+        "Worksheets & home practice for reading and comprehension"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Practical and applied Qur’anic Arabic approach",
+        "Step-by-step vocabulary and grammar teaching",
+        "Repetition & interactive exercises",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Title": "Islamic Studies: Seerah",
+  "Type": "Islamic Studies",
+  "Subtitle": "Life and Teachings of the Prophet ﷺ",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners and intermediate learners."
+    },
+    {
+      "Question": "Can I start without prior Seerah knowledge?",
+      "Answer": "Yes. The course introduces Seerah step by step."
+    },
+    {
+      "Question": "Is Seerah difficult to understand?",
+      "Answer": "No. It is taught clearly with stories, examples, and guidance for practical lessons."
+    },
+    {
+      "Question": "Will I be able to follow and apply the Prophet’s ﷺ teachings?",
+      "Answer": "Yes. Step-by-step guidance ensures comprehension and practical implementation."
+    },
+    {
+      "Question": "How are lessons applied in daily life?",
+      "Answer": "With practical examples, guided reflection, and discussion."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches the Seerah of the Prophet ﷺ, helping students understand his life, character, and lessons. Focuses on practical application, moral guidance, and historical context."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners or those with basic Islamic knowledge",
+        "Learners who want to know the life of the Prophet ﷺ",
+        "Students aiming to implement his character and teachings",
+        "Anyone seeking structured guidance to understand the Prophet’s ﷺ example"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Seerah and its significance",
+        "Early life of the Prophet ﷺ",
+        "Prophethood and message delivery",
+        "Migration (Hijrah) and major events",
+        "Battles, treaties, and challenges",
+        "Teachings, morals, and character lessons",
+        "Practical application in daily life",
+        "Reflection exercises and discussion"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Understanding of the life and mission of the Prophet ﷺ",
+        "Knowledge of key events, challenges, and achievements",
+        "Ability to implement moral lessons and teachings",
+        "Strengthened connection with the Prophet ﷺ",
+        "Practical application of his guidance in daily life"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & reflection exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Step-by-step explanation of Seerah events",
+        "Interactive storytelling & discussion",
+        "Reflection exercises & practical application",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}

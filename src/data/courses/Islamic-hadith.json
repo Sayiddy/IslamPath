@@ -1,0 +1,90 @@
+{
+  "Title": "Islamic Studies: Hadith",
+  "Type": "Islamic Studies",
+  "Subtitle": "Understanding and Applying the Prophet’s Sayings",
+  "FAQ": [
+    {
+      "Question": "Is this course only for advanced learners?",
+      "Answer": "No. It is suitable for beginners and intermediate learners."
+    },
+    {
+      "Question": "Can I start without prior Hadith knowledge?",
+      "Answer": "Yes. The course introduces Hadith step by step."
+    },
+    {
+      "Question": "Is Hadith difficult to understand?",
+      "Answer": "No. It is taught with clear explanations, examples, and practical guidance."
+    },
+    {
+      "Question": "Will I be able to memorize and apply Hadith confidently?",
+      "Answer": "Yes. Step-by-step guidance ensures comprehension, memorization, and practice."
+    },
+    {
+      "Question": "How are mistakes corrected?",
+      "Answer": "With patient guidance, repeated correction, and clear explanation."
+    }
+  ],
+  "Sections": [
+    {
+      "Heading": "About Course",
+      "Content": "A structured program that teaches Hadith studies, helping students understand, memorize, and apply the sayings of the Prophet ﷺ. Focuses on authentic Hadith, context, meanings, and practical implementation."
+    },
+    {
+      "ul": true,
+      "Heading": "Who is it for?",
+      "Content": [
+        "Students of all ages",
+        "Beginners or those with basic Islamic knowledge",
+        "Learners who want to memorize authentic Hadith",
+        "Students aiming to understand the Prophet’s ﷺ teachings",
+        "Anyone seeking structured guidance in applying Hadith in daily life"
+      ]
+    },
+    {
+      "ol": true,
+      "Heading": "Course Structure",
+      "Content": [
+        "Introduction to Hadith and its importance",
+        "Classification of Hadith (Sahih, Da’if, Hasan)",
+        "Selected Hadith study and memorization",
+        "Context, explanation, and lessons of Hadith",
+        "Practical application of Hadith in daily life",
+        "Reflection exercises and discussion",
+        "Review and revision techniques",
+        "Developing strong understanding and implementation"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "What Will You Achieve",
+      "Content": [
+        "Knowledge of authentic Hadith and their meanings",
+        "Ability to memorize and explain selected Hadith",
+        "Enhanced understanding of Islamic teachings",
+        "Practical application in daily life",
+        "Strengthened connection with the Prophet ﷺ teachings"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Course Features",
+      "Content": [
+        "1-on-1 or group classes",
+        "Qualified Islamic instructors",
+        "Weekly progress reports",
+        "Personalized feedback",
+        "Worksheets & reflection exercises"
+      ]
+    },
+    {
+      "ul": true,
+      "Heading": "Teaching Method",
+      "Content": [
+        "Step-by-step explanation of Hadith",
+        "Contextual examples & interactive exercises",
+        "Memorization techniques & guided repetition",
+        "Supportive, pressure-free learning environment"
+      ]
+    }
+  ]
+}
