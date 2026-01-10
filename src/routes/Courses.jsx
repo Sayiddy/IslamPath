@@ -37,18 +37,18 @@ export default function Courses() {
         <p className="text-[18px] font-sans text-center text-cGery mx-5">Explore the wide range of Quran, Islamic, Arabic courses for both kids and adults</p>
       </div>
 
-      <div className='flex mx-auto justify-center mb-10 gap-4'>
-        <button className={'flex h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === 'All' ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter('All')}>
+      <div className='flex flex-wrap justify-center gap-4 mb-10 mx-4'>
+        <button className={'flex h-[46px] w-fit px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === 'All' ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter('All')}>
           All
         </button>
         {courseTypes.map((type) => (
-          <button key={type} className={'flex h-[46px] px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === type ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter(type)}>
+          <button key={type} className={'flex h-[46px] w-fit px-4 rounded-[15px] font-semibold text-white bg-cBronze justify-center items-center self-center cursor-pointer hover:scale-105 hover:bg-white hover:border-cYellow hover:border-3 hover:text-cBlack hover:font-normal transition-all duration-300' + (filter === type ? ' border-cYellow border-3! bg-white! text-cBlack! font-normal! hover:scale-100!' : '')} onClick={() => setFilter(type)}>
             {type}
           </button>
         ))}
       </div>
 
-      <div className='grid grid-rows-3 sm:grid-rows-2 lg:grid-rows-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-fit h-fit justify-center items-center gap-10 mx-auto mb-[82px]'>
+      <div className='grid grid-rows-3 sm:grid-rows-2 lg:grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-fit h-fit justify-center items-center gap-10 mx-auto mb-[82px]'>
         {filteredCourses.map((course, index) => (
           <CourseCard key={index} title={course[1].Title} subtitle={course[1].Subtitle} URL={course[0]} image={courseImages[course[0]]}/>
         ))}
