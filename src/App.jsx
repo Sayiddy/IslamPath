@@ -7,6 +7,7 @@ import ContactUs from './routes/ContactUs.jsx'
 import Pricing from './routes/Pricing.jsx'
 import Course from './routes/Course.jsx'
 import Courses from './routes/Courses.jsx'
+import AboutUs from './routes/AboutUs.jsx'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:courseName" element={<Course />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
         <Footer />
       </Router>

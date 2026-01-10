@@ -18,7 +18,7 @@ export default function NavBar({ currentPage }) {
         <img src={logoR} alt="Islam Path Logo" className="h-[50px] m-[25px] ml-[50px] sm-auto"/>
         <div className='xl:grid hidden grid-rows-1 grid-flow-col gap-10 m-[25px]'>
           <Link to="/" className={'text-[18px] ' + (currentPage === "Home" ? "text-cYellow" : " hover:text-cYellow")}>Home</Link>
-          <div to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</div>
+          <Link to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</Link>
           <Link to="/courses" className={'text-[18px] ' + (currentPage === "Courses" ? "text-cYellow" : " hover:text-cYellow")}>Courses</Link>
           <div to="/tutors" className={'text-[18px] ' + (currentPage === "Tutors" ? "text-cYellow" : " hover:text-cYellow")}>Tutors</div>
           <Link to="/contact-us" className={'text-[18px] ' + (currentPage === "Contact Us" ? "text-cYellow" : " hover:text-cYellow")}>Contact Us</Link>
