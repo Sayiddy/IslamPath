@@ -7,7 +7,7 @@ export default function AboutUs() {
   return (
     <>
       <NavBar currentPage="AboutUs" />
-      <div className="grid grid-cols-2 mx-100 mt-20 align-middle">
+      <div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto mt-20">
         <div className="flex flex-col align-middle my-auto">
           <h1 className="text-[32px] font-sans font-bold text-cYellow">
             About Islam Path
@@ -20,11 +20,10 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className="bg-cBlack w-[450px] h-[450px] ml-auto">
-        </div>
+        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
       </div>
 
-      <div className="mx-100 mt-20 align-middle">
+      <div className="w-4/5 mx-auto my-20 xl:mb-0 align-middle">
         <div className="flex flex-row align-middle my-auto">
           <h1 className="text-[32px] font-sans font-bold text-cYellow text-right">
             Our Mission
@@ -40,11 +39,11 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 mx-100 mt-20 align-middle">
-        <div className="bg-cBlack w-[450px] h-[450px] mr-auto"></div>
+      <div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto xl:mt-20">
+        <img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block"></img>
 
 
-        <div className="flex flex-col align-middle my-auto">
+        <div className="flex flex-col align-middle my-auto xl:row-start-1 xl:col-start-2 row-start-1 col-start-1">
           <h1 className="text-[32px] font-sans font-bold text-cYellow">
             Our Vision
           </h1>
@@ -58,7 +57,7 @@ export default function AboutUs() {
 
       </div>
 
-      <div className=" mx-100 mt-20 align-middle">
+      <div className=" w-4/5 mx-auto my-20 xl:mb-0 align-middle">
         <div className="flex flex-row align-middle my-auto">
           <h1 className="text-[32px] font-sans font-bold text-cYellow text-right">
             Our Mission
@@ -74,7 +73,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 mx-100 mt-20 align-middle">
+      <div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto xl:mt-20">
         <div className="flex flex-col align-middle my-auto">
           <h1 className="text-[32px] font-sans font-bold text-cYellow">
             Who can join?
@@ -87,42 +86,41 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className="bg-cBlack w-[450px] h-[450px] ml-auto">
-        </div>
+        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
       </div>
 
 
-      <div className=" mx-60 my-20 align-middle">
+      <div className="w-4/5 mx-auto my-20 align-middle">
         <h1 className="text-[38px] font-sans font-bold text-cYellow mb-4 text-center">
           Why Islam Path?
         </h1>
         <div className="flex flex-row align-middle my-auto">
           <div className="grid grid-cols-5 gap-5 w-full bg-cYellow/25 h-[350px] my-auto">
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-auto  border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
               <p className="text-cBlack text-2xl">
                 Certified and experienced teachers with real-world teaching experience.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-auto  border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
               <p className="text-cBlack text-2xl">
                 Flexible scheduling for different time zones and busy lifestyles.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-auto  border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
               <p className="text-cBlack text-2xl my-auto">
                 Individualized progress plans and weekly reports to track
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-auto  border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
               <p className="text-cBlack text-2xl">
                 Safe and supportive environment for kids and female learners.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-auto  border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
               <p className="text-cBlack text-2xl">
                 Authentic curriculum rooted in sound sources.
               </p>
