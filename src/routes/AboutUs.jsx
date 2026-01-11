@@ -98,31 +98,31 @@ export default function AboutUs() {
         </h1>
         <div className="flex flex-row align-middle my-auto">
           <div className="grid grid-cols-5 gap-5 w-full bg-cYellow/25 h-[350px] my-auto">
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 ml-[-100px]">
               <p className="text-cBlack text-2xl">
                 Certified and experienced teachers with real-world teaching experience.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 ml-[-100px]">
               <p className="text-cBlack text-2xl">
                 Flexible scheduling for different time zones and busy lifestyles.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 ml-[-100px]">
               <p className="text-cBlack text-2xl my-auto">
                 Individualized progress plans and weekly reports to track
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 ml-[-100px]">
               <p className="text-cBlack text-2xl">
                 Safe and supportive environment for kids and female learners.
               </p>
             </div>
 
-            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 mx-[-100px]">
+            <div className="w-full h-auto my-11 border-cYellow border-4 bg-white rounded-4xl align-middle p-5 ml-[-100px]">
               <p className="text-cBlack text-2xl">
                 Authentic curriculum rooted in sound sources.
               </p>
