@@ -7,6 +7,11 @@ import bbr from "../assets/bbr.png";
 import mbbr from "../assets/mbbr.png";
 
 export default function ContactUs() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
       <NavBar currentPage="Contact Us"/>

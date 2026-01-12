@@ -8,6 +8,10 @@ export default function Courses() {
   let courseTypes = [];
   let filteredCourses = [];
 
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   Object.entries(courses).forEach(([key, course]) => {
     if (!courseTypes.includes(course.Type)) {
       courseTypes.push(course.Type);

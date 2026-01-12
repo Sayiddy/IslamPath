@@ -8,6 +8,11 @@ import mbbr from "../assets/mbbr.png";
 import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <NavBar currentPage="Pricing"/>

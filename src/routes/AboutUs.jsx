@@ -4,6 +4,11 @@ import NavBar from "../components/NavBar.jsx";
 import courses, { courseImages } from "../data/index.js";
 
 export default function AboutUs() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <NavBar currentPage="AboutUs" />

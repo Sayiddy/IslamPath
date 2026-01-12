@@ -12,6 +12,10 @@ export default function BookTrialClass() {
   const ref = useRef();
   const sendingRef = useRef();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
