@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar"
 import CourseCard from '../components/CourseCard.jsx';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import courses, { courseImages } from "../data/index.js";
 
 export default function Courses() {

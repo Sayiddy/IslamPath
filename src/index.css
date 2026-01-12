@@ -33,3 +33,24 @@ ul, ol {
   margin-left: 0;
   list-style-position: inside;
 }
+
+.home-bg {
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.75) 55%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("/src/assets/Home_Bg.jpg");
+}
+
+.home-bg-mobile {
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.75) 100%
+    ),
+    url("/src/assets/Home_Bg.jpg");
+}

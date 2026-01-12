@@ -9,6 +9,22 @@ export default function Course() {
   const courseImage = courseImages[courseName];
 
   const [activeSection, setActiveSection] = useState(null);
+  
+  if (!course) {
+    return (
+      <>
+        <NavBar currentPage="Courses" />
+        <h1 className="text-4xl font-sans text-center font-bold mt-[82px] mb-[41px] text-cYellow">
+          Course not found
+        </h1>
+        <div className="text-center mt-8 my-20">
+          <Link to="/courses" className="text-cBronze underline">
+            Back to courses
+          </Link>
+        </div>
+      </>
+    );
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,22 +46,6 @@ export default function Course() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  if (!course) {
-    return (
-      <>
-        <NavBar currentPage="Courses" />
-        <h1 className="text-4xl font-sans text-center font-bold mt-[82px] mb-[41px] text-cYellow">
-          Course not found
-        </h1>
-        <div className="text-center mt-8 my-20">
-          <Link to="/courses" className="text-cBronze underline">
-            Back to courses
-          </Link>
-        </div>
-      </>
-    );
-  }
 
   const scrollToSection = (index) => {
     const sectionElement = document.getElementById(`section-${index}`);
