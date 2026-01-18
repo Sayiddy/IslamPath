@@ -6,9 +6,12 @@ import 'react-phone-input-2/lib/style.css';
 import emailjs from '@emailjs/browser';
 import bbr from "../assets/bbr.png";
 import mbbr from "../assets/mbbr.png";
+import { Link } from "react-router-dom";
 
 export default function BookTrialClass() {
   const [phone, setPhone] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState(undefined);
   const ref = useRef();
   const sendingRef = useRef();
 
@@ -23,6 +26,8 @@ export default function BookTrialClass() {
 
     console.log(sendingRef.current);
 
+    setLoading(true);
+
     emailjs
       .sendForm('service_ygl711p', 'template_oj49v7e', ref.current, {
         publicKey: 'MmoXW1AoCXa8QGoMr',
@@ -30,9 +35,13 @@ export default function BookTrialClass() {
       .then(
         () => {
           console.log('SUCCESS!');
+          setLoading(false);
+          setStatus(true);
         },
         (error) => {
           console.log('FAILED...', error.text);
+          setLoading(false);
+          setStatus(false);
         },
       );
     
@@ -43,16 +52,47 @@ export default function BookTrialClass() {
       .then(
         () => {
           console.log('SUCCESS!');
+          setLoading(false);
+          setStatus(true);
         },
         (error) => {
           console.log('FAILED...', error.text);
+          setLoading(false);
+          setStatus(false);
         },
       );
+    
+    e.target.reset();
   };
 
 
   return (
     <>
+      {loading && <div className="fixed z-70 bg-[rgba(0,0,0,0.5)] w-full h-full text-center align-middle text-3xl text-white flex items-center justify-center font-bold"><p>Booking...</p></div>}
+
+      {status === true && 
+        <div className="fixed z-70 bg-[rgba(0,0,0,0.5)] w-full h-full text-center align-middle flex items-center justify-center" onclick={()=>{setStatus(undefined)}}>
+          <div className="rounded-2xl flex-col bg-white p-10 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans text-center">
+            <h1 className="text-4xl text-cYellow font-bold font-sans">Booking Successful!</h1>
+            <p className="text-cGery text-[18px] my-4 font-sans">We will contact you on Whatsapp soon</p>
+            <button onClick={()=>{setStatus(undefined)}} className="bg-cBronze hover:bg-transparent border-3 border-transparent hover:border-cYellow hover:text-cBlack text-white text-[16px] rounded-[15px] px-6 py-3 mt-4 mx-auto cursor-pointer transition-all duration-300">Close</button>
+          </div>
+        </div>
+      }
+      
+      {status === false && 
+        <div className="fixed z-70 bg-[rgba(0,0,0,0.5)] w-full h-full text-center align-middle flex items-center justify-center" onclick={()=>{setStatus(undefined)}}>
+          <div className="rounded-2xl flex-col bg-white p-10 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.25)] font-sans text-center">
+            <h1 className="text-4xl text-cYellow font-bold font-sans">Something went wrong!</h1>
+            <p className="text-cGery text-[18px] my-4 font-sans">Please try again later, or contact us directly.</p>
+            <div className="flex flex-row gap-7 mx-auto justify-center">
+              <Link to={"/contact-us"} className="bg-cBronze hover:bg-transparent border-3 border-transparent hover:border-cYellow hover:text-cBlack text-white text-[16px] rounded-[15px] px-6 py-3 mt-4 cursor-pointer transition-all duration-300">Contact Us</Link>
+              <button onClick={()=>{setStatus(undefined)}} className="bg-cBronze hover:bg-transparent border-3 border-transparent hover:border-cYellow hover:text-cBlack text-white text-[16px] rounded-[15px] px-6 py-3 mt-4 cursor-pointer transition-all duration-300">Close</button>
+            </div>
+          </div>
+        </div>
+      }
+
       <NavBar currentPage=""/>
       <img src={bbr} alt="" className="hidden lg:block absolute right-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
       <img src={mbbr} alt="" className="hidden lg:block absolute left-0 bottom-0 opacity-20 -z-10 pointer-events-none h-[135%] lg:w-1/2 w-full" style={{transform: 'translate(0%, 35%)'}}/>
