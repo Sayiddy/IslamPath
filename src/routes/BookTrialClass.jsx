@@ -29,14 +29,14 @@ export default function BookTrialClass() {
     setLoading(true);
 
     emailjs
-      .sendForm('service_ygl711p', 'template_oj49v7e', ref.current, {
-        publicKey: 'MmoXW1AoCXa8QGoMr',
+      .sendForm('service_nzanb38', 'template_6d3w7ql', ref.current, {
+        publicKey: 'X0pZbTI19MClhBuTC',
       })
       .then(
         () => {
           console.log('SUCCESS!');
           setLoading(false);
-          setStatus(true);
+          status === undefined && setStatus(true);
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -46,14 +46,14 @@ export default function BookTrialClass() {
       );
     
     emailjs
-      .sendForm('service_ygl711p', 'template_ufk60q6', ref.current, {
-        publicKey: 'MmoXW1AoCXa8QGoMr',
+      .sendForm('service_nzanb38', 'template_5yuljpg', ref.current, {
+        publicKey: 'X0pZbTI19MClhBuTC',
       })
       .then(
         () => {
           console.log('SUCCESS!');
           setLoading(false);
-          setStatus(true);
+          status === undefined && setStatus(true);
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -148,54 +148,21 @@ export default function BookTrialClass() {
             </div>
 
             <div className="lg:flex-row flex-col lg:gap-10 flex w-full">
-              <div className="w-full">
+              <div className="lg:flex-1 w-full">
                 <label className="text-left font-sans text-[18px] text-cBlack">Country Of Residence</label><br/>
                 <input required name="Country" type="text" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Country Of Residence"/>
               </div>
 
-              <div className="w-full">
-                <label className="text-left font-sans text-[18px] text-cBlack">Select Timezone</label><br/>
-                <select required name="Timezone" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4">
-                  <option value="UTC-12:00">UTC-12:00</option>
-                  <option value="UTC-11:00">UTC-11:00</option>
-                  <option value="UTC-10:00">UTC-10:00</option>
-                  <option value="UTC-09:30">UTC-09:30</option>
-                  <option value="UTC-09:00">UTC-09:00</option>
-                  <option value="UTC-08:00">UTC-08:00</option>
-                  <option value="UTC-07:00">UTC-07:00</option>
-                  <option value="UTC-06:00">UTC-06:00</option>
-                  <option value="UTC-05:00">UTC-05:00</option>
-                  <option value="UTC-04:30">UTC-04:30</option>
-                  <option value="UTC-04:00">UTC-04:00</option>
-                  <option value="UTC-03:30">UTC-03:30</option>
-                  <option value="UTC-03:00">UTC-03:00</option>
-                  <option value="UTC-02:00">UTC-02:00</option>
-                  <option value="UTC-01:00">UTC-01:00</option>
-                  <option value="UTC+00:00">UTC+00:00</option>
-                  <option value="UTC+01:00">UTC+01:00</option>
-                  <option value="UTC+02:00">UTC+02:00</option>
-                  <option value="UTC+03:00">UTC+03:00</option>
-                  <option value="UTC+03:30">UTC+03:30</option>
-                  <option value="UTC+04:00">UTC+04:00</option>
-                  <option value="UTC+04:30">UTC+04:30</option>
-                  <option value="UTC+05:00">UTC+05:00</option>
-                  <option value="UTC+05:30">UTC+05:30</option>
-                  <option value="UTC+05:45">UTC+05:45</option>
-                  <option value="UTC+06:00">UTC+06:00</option>
-                  <option value="UTC+06:30">UTC+06:30</option>
-                  <option value="UTC+07:00">UTC+07:00</option>
-                  <option value="UTC+08:00">UTC+08:00</option>
-                  <option value="UTC+08:45">UTC+08:45</option>
-                  <option value="UTC+09:00">UTC+09:00</option>
-                  <option value="UTC+09:30">UTC+09:30</option>
-                  <option value="UTC+10:00">UTC+10:00</option>
-                  <option value="UTC+10:30">UTC+10:30</option>
-                  <option value="UTC+11:00">UTC+11:00</option>
-                  <option value="UTC+12:00">UTC+12:00</option>
-                  <option value="UTC+12:45">UTC+12:45</option>
-                  <option value="UTC+13:00">UTC+13:00</option>
-                  <option value="UTC+14:00">UTC+14:00</option>
-                </select>
+              <div className="lg:flex-row flex-col lg:gap-10 flex lg:flex-1 w-full min-w-0">
+                <div className="lg:flex-1 w-full min-w-0">
+                  <label className="text-left font-sans text-[18px] text-cBlack">Date</label><br/>
+                  <input required name="Date" type="date" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Date"/>
+                </div>
+
+                <div className="lg:flex-1 w-full min-w-0">
+                  <label className="text-left font-sans text-[18px] text-cBlack">Time</label><br/>
+                  <input required name="Time" type="time" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Time"/>
+                </div>
               </div>
             </div>
 
@@ -232,8 +199,48 @@ export default function BookTrialClass() {
               
               <div className="lg:flex-row flex-col lg:gap-10 flex lg:flex-1 w-full min-w-0">
                 <div className="lg:flex-1 w-full min-w-0">
-                  <label className="text-left2 font-sans text-[18px] text-cBlack">Date & Time</label><br/>
-                  <input required name="DateTime" type="datetime-local" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4" placeholder="Student Age"/>
+                  <label className="text-left font-sans text-[18px] text-cBlack">Select Timezone</label><br/>
+                  <select required name="Timezone" className="w-full text-[18px] border-2 border-cLightGery placeholder:text-cLightGery rounded-lg p-2 mt-2 mb-4">
+                    <option value="UTC-12:00">UTC-12:00</option>
+                    <option value="UTC-11:00">UTC-11:00</option>
+                    <option value="UTC-10:00">UTC-10:00</option>
+                    <option value="UTC-09:30">UTC-09:30</option>
+                    <option value="UTC-09:00">UTC-09:00</option>
+                    <option value="UTC-08:00">UTC-08:00</option>
+                    <option value="UTC-07:00">UTC-07:00</option>
+                    <option value="UTC-06:00">UTC-06:00</option>
+                    <option value="UTC-05:00">UTC-05:00</option>
+                    <option value="UTC-04:30">UTC-04:30</option>
+                    <option value="UTC-04:00">UTC-04:00</option>
+                    <option value="UTC-03:30">UTC-03:30</option>
+                    <option value="UTC-03:00">UTC-03:00</option>
+                    <option value="UTC-02:00">UTC-02:00</option>
+                    <option value="UTC-01:00">UTC-01:00</option>
+                    <option value="UTC+00:00">UTC+00:00</option>
+                    <option value="UTC+01:00">UTC+01:00</option>
+                    <option value="UTC+02:00">UTC+02:00</option>
+                    <option value="UTC+03:00">UTC+03:00</option>
+                    <option value="UTC+03:30">UTC+03:30</option>
+                    <option value="UTC+04:00">UTC+04:00</option>
+                    <option value="UTC+04:30">UTC+04:30</option>
+                    <option value="UTC+05:00">UTC+05:00</option>
+                    <option value="UTC+05:30">UTC+05:30</option>
+                    <option value="UTC+05:45">UTC+05:45</option>
+                    <option value="UTC+06:00">UTC+06:00</option>
+                    <option value="UTC+06:30">UTC+06:30</option>
+                    <option value="UTC+07:00">UTC+07:00</option>
+                    <option value="UTC+08:00">UTC+08:00</option>
+                    <option value="UTC+08:45">UTC+08:45</option>
+                    <option value="UTC+09:00">UTC+09:00</option>
+                    <option value="UTC+09:30">UTC+09:30</option>
+                    <option value="UTC+10:00">UTC+10:00</option>
+                    <option value="UTC+10:30">UTC+10:30</option>
+                    <option value="UTC+11:00">UTC+11:00</option>
+                    <option value="UTC+12:00">UTC+12:00</option>
+                    <option value="UTC+12:45">UTC+12:45</option>
+                    <option value="UTC+13:00">UTC+13:00</option>
+                    <option value="UTC+14:00">UTC+14:00</option>
+                  </select>
                 </div>
 
                 <div className="lg:flex-1 w-full min-w-0">
