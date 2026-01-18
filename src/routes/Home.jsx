@@ -4,6 +4,10 @@ import home from "../assets/Home_Bg.jpg"
 import { useEffect } from "react";
 import Btn from "../components/Btn.jsx";
 import { Link } from "react-router-dom";
+import Home1 from "../assets/Home1.jpeg";
+import Home2 from "../assets/Home2.jpeg";
+import Home3 from "../assets/Home3.jpeg";
+import Home4 from "../assets/Home4.jpeg";
 
 export default function Home() {
 
@@ -41,12 +45,12 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></div>
+				<img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block" src={Home1}></img>
 			</div>
 
 			<div className="w-full bg-cBronze">
 				<div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto py-20 align-middle">
-					<div className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block"></div>
+					<img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block" src={Home2}></img>
 
 					<div className="flex flex-col align-middle my-auto">
 						<h1 className="text-[32px] font-sans font-bold text-cYellow">
@@ -86,12 +90,12 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></div>
+				<img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block" src={Home3}></img>
 			</div>
 
 			<div className="w-full bg-cBronze">
 				<div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto py-20 align-middle">
-					<div className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block"></div>
+					<img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block" src={Home4}></img>
 
 					<div className="flex flex-col align-middle my-auto">
 						<h1 className="text-[32px] font-sans font-bold text-cYellow">
@@ -132,7 +136,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></div>
+				<img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
 			</div>
 		</>
 	);

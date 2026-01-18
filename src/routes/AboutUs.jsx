@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import NavBar from "../components/NavBar.jsx";
 import courses, { courseImages } from "../data/index.js";
+import AboutUs1 from "../assets/AboutUs1.jpeg";
 
 export default function AboutUs() {
   
@@ -25,7 +26,7 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
+        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block" src={AboutUs1}></img>
       </div>
 
       <div className="w-4/5 mx-auto my-20 xl:mb-0 align-middle">
