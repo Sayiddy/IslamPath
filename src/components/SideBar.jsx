@@ -20,9 +20,9 @@ export default function SideBar({setSideBarOpen}) {
 
         <div className="bg-black h-0.5 opacity-5"></div>
 
-        <div to="/about-us" className="h-15 flex">
+        <Link to="/about-us" className="h-15 flex">
           <p className={'text-[18px] text-cGery my-auto ml-5'}>About Us</p>
-        </div>
+        </Link>
         
         <div className="bg-black h-0.5 opacity-5"></div>
 
