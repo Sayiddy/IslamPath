@@ -8,6 +8,7 @@ import Home1 from "../assets/Home1.jpeg";
 import Home2 from "../assets/Home2.jpeg";
 import Home3 from "../assets/Home3.jpeg";
 import Home4 from "../assets/Home4.jpeg";
+import Home5 from "../assets/Home5.jpeg";
 
 export default function Home() {
 
@@ -136,7 +137,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
+				<img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block" src={Home5}></img>
 			</div>
 		</>
 	);

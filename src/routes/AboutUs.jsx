@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import NavBar from "../components/NavBar.jsx";
 import courses, { courseImages } from "../data/index.js";
 import AboutUs1 from "../assets/AboutUs1.jpeg";
+import AboutUs2 from "../assets/AboutUs2.jpeg";
+import AboutUs3 from "../assets/AboutUs3.jpeg";
+import AboutUs4 from "../assets/AboutUs4.jpeg";
 
 export default function AboutUs() {
   
@@ -46,7 +49,7 @@ export default function AboutUs() {
       </div>
 
       <div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto xl:mt-20">
-        <img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block"></img>
+        <img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block" src={AboutUs2}></img>
 
 
         <div className="flex flex-col align-middle my-auto xl:row-start-1 xl:col-start-2 row-start-1 col-start-1">
@@ -92,11 +95,11 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block"></img>
+        <img className="bg-cBlack size-[450px] mx-auto xl:mr-0 xl:ml-auto hidden xl:block" src={AboutUs3}></img>
       </div>
       
       <div className="grid grid-rows-1 xl:grid-rows-1 xl:grid-cols-2 w-4/5 mx-auto xl:mt-20 my-20">
-        <img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block"></img>
+        <img className="bg-cBlack size-[450px] mx-auto xl:ml-0 xl:mr-auto xl:row-start-1 xl:col-start-1 row-start-2 col-start-1 hidden xl:block" src={AboutUs4}></img>
 
         <div className="flex flex-col align-middle my-auto xl:row-start-1 xl:col-start-2 row-start-1 col-start-1">
           <h1 className="text-[32px] font-sans font-bold text-cYellow">
