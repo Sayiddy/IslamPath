@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
-import logoR from '../assets/logoR.png';
+import logo from '../assets/logo.jpg';
 import Btn from './Btn';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
@@ -15,7 +14,7 @@ export default function NavBar({ currentPage }) {
       <div className="w-full h-[100px] bg-white align-middle sticky top-0 shadow-md flex items-center z-30">
         <GiHamburgerMenu onClick={() => setSideBarOpen(!sideBarOpen)} className="xl:hidden block size-12 bg-transparent outline-cYellow outline-3 hover:bg-cBronze hover:outline-none hover:text-white text-cBlack text-center p-2 ml-[30px] rounded-[15px] transition-all duration-300 align-middle shrink-0"/>
         
-        <img src={logoR} alt="Islam Path Logo" className="h-[50px] m-[25px] ml-[50px] sm-auto"/>
+        <img src={logo} alt="Islam Path Logo" className="h-[100px] m-[25px] ml-[50px] sm-auto"/>
         <div className='xl:grid hidden grid-rows-1 grid-flow-col gap-10 m-[25px]'>
           <Link to="/" className={'text-[18px] ' + (currentPage === "Home" ? "text-cYellow" : " hover:text-cYellow")}>Home</Link>
           <Link to="/about-us" className={'text-[18px] ' + (currentPage === "About Us" ? "text-cYellow" : " hover:text-cYellow")}>About Us</Link>

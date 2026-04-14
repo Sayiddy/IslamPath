@@ -14,7 +14,7 @@ export default function Footer() {
       <img src={goldPattern} alt="" className="absolute right-0 top-0 opacity-22 z-0 pointer-events-none size-60 rotate-180" style={{transform: 'translate(-40%, -40%)'}}/>
       <img src={goldPattern} alt="" className="absolute right-0 top-0 opacity-17 z-0 pointer-events-none size-44 rotate-180" style={{transform: 'translate(30%, 35%)'}}/>
       <div className="hidden sm:flex flex-col z-10">
-        <img src={logo} alt="Islam Path Logo" className="h-36 m-2.5 mx-auto rounded-2xl"/>
+        <img src={logo} alt="Islam Path Logo" className="h-48 m-2.5 mx-auto rounded-2xl"/>
         <p className='font-semibold mt-5'>
           Deepen your connection <br/>
           with the Quran through <br/>
