@@ -69,7 +69,7 @@ export default function AboutUs() {
       <div className=" w-4/5 mx-auto my-20 xl:mb-0 align-middle">
         <div className="flex flex-row align-middle my-auto">
           <h1 className="text-[32px] font-sans font-bold text-cYellow text-right">
-            Our Mission
+            Our Method
           </h1>
 
           <div className="bg-cYellow h-auto w-2 mx-2"></div>
